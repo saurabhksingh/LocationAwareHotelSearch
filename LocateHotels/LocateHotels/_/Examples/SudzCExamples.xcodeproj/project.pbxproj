@@ -1,0 +1,1293 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		10C71DCE110B5D9F008E8718 /* SudzCExamplesAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 10C71DCC110B5D9F008E8718 /* SudzCExamplesAppDelegate.m */; };
+		10C71E6E110B5EC0008E8718 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10C71E6D110B5EC0008E8718 /* SystemConfiguration.framework */; };
+		508d8befa8e6cd9100000000 /* SDZHotelServicesImplServiceExample.m in Sources */ = {isa = PBXBuildFile; fileRef = 508d8af5a8e6cd8d00000000 /* SDZHotelServicesImplServiceExample.m */; };
+		508d8bf0a8e6cd9100000000 /* SDZHotelServicesImplServiceExample.h in Sources */ = {isa = PBXBuildFile; fileRef = 508d8af6a8e6cd8d00000000 /* SDZHotelServicesImplServiceExample.h */; };
+		508d8bf1a8e6cd9100000000 /* SDZItineraryQuery.h in Sources */ = {isa = PBXBuildFile; fileRef = 508d8af7a8e6cd8e00000000 /* SDZItineraryQuery.h */; };
+		508d8bf2a8e6cd9100000000 /* SDZgetListResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 508d8af8a8e6cd8e00000000 /* SDZgetListResponse.m */; };
+		508d8bf3a8e6cd9100000000 /* SDZgetPingResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 508d8af9a8e6cd8e00000000 /* SDZgetPingResponse.m */; };
+		508d8bf4a8e6cd9100000000 /* SDZHotelInformationResponse.h in Sources */ = {isa = PBXBuildFile; fileRef = 508d8afaa8e6cd8e00000000 /* SDZHotelInformationResponse.h */; };
+		508d8bf5a8e6cd9100000000 /* SDZHotelRoomReservationRequest.h in Sources */ = {isa = PBXBuildFile; fileRef = 508d8afba8e6cd8e00000000 /* SDZHotelRoomReservationRequest.h */; };
+		508d8bf6a8e6cd9100000000 /* SDZmapEntry.h in Sources */ = {isa = PBXBuildFile; fileRef = 508d8afca8e6cd8e00000000 /* SDZmapEntry.h */; };
+		508d8bf7a8e6cd9100000000 /* SDZSupplier.h in Sources */ = {isa = PBXBuildFile; fileRef = 508d8afda8e6cd8e00000000 /* SDZSupplier.h */; };
+		508d8bf8a8e6cd9100000000 /* SDZRateRulesFreeFlow.h in Sources */ = {isa = PBXBuildFile; fileRef = 508d8afea8e6cd8e00000000 /* SDZRateRulesFreeFlow.h */; };
+		508d8bf9a8e6cd9100000000 /* SDZgetAvailabilityResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 508d8affa8e6cd8e00000000 /* SDZgetAvailabilityResponse.m */; };
+		508d8bfaa8e6cd9100000000 /* SDZRoom.m in Sources */ = {isa = PBXBuildFile; fileRef = 508d8b00a8e6cd8e00000000 /* SDZRoom.m */; };
+		508d8bfba8e6cd9100000000 /* SDZbaseRateInfoSurcharges.m in Sources */ = {isa = PBXBuildFile; fileRef = 508d8b01a8e6cd8e00000000 /* SDZbaseRateInfoSurcharges.m */; };
+		508d8bfca8e6cd9100000000 /* SDZReservationGuest.h in Sources */ = {isa = PBXBuildFile; fileRef = 508d8b02a8e6cd8e00000000 /* SDZReservationGuest.h */; };
+		508d8bfda8e6cd9100000000 /* SDZgetReservationResponse.h in Sources */ = {isa = PBXBuildFile; fileRef = 508d8b03a8e6cd8e00000000 /* SDZgetReservationResponse.h */; };
+		508d8bfea8e6cd9100000000 /* SDZHotelListRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 508d8b04a8e6cd8e00000000 /* SDZHotelListRequest.m */; };
+		508d8bffa8e6cd9100000000 /* SDZvalueAdd.h in Sources */ = {isa = PBXBuildFile; fileRef = 508d8b05a8e6cd8e00000000 /* SDZvalueAdd.h */; };
+		508d8c00a8e6cd9100000000 /* SDZPaymentType.h in Sources */ = {isa = PBXBuildFile; fileRef = 508d8b06a8e6cd8e00000000 /* SDZPaymentType.h */; };
+		508d8c01a8e6cd9100000000 /* SDZHotelRateRulesRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 508d8b07a8e6cd8e00000000 /* SDZHotelRateRulesRequest.m */; };
+		508d8c02a8e6cd9100000000 /* SDZlistWithSizeAttribute.h in Sources */ = {isa = PBXBuildFile; fileRef = 508d8b08a8e6cd8e00000000 /* SDZlistWithSizeAttribute.h */; };
+		508d8c03a8e6cd9100000000 /* SDZRoomType.m in Sources */ = {isa = PBXBuildFile; fileRef = 508d8b09a8e6cd8e00000000 /* SDZRoomType.m */; };
+		508d8c04a8e6cd9100000000 /* SDZLowestRateInfo.h in Sources */ = {isa = PBXBuildFile; fileRef = 508d8b0aa8e6cd8e00000000 /* SDZLowestRateInfo.h */; };
+		508d8c05a8e6cd9100000000 /* SDZRoomAmenities.h in Sources */ = {isa = PBXBuildFile; fileRef = 508d8b0ba8e6cd8e00000000 /* SDZRoomAmenities.h */; };
+		508d8c06a8e6cd9100000000 /* SDZNightlyRates.h in Sources */ = {isa = PBXBuildFile; fileRef = 508d8b0ca8e6cd8e00000000 /* SDZNightlyRates.h */; };
+		508d8c07a8e6cd9100000000 /* SDZgetPaymentInfoResponse.h in Sources */ = {isa = PBXBuildFile; fileRef = 508d8b0da8e6cd8e00000000 /* SDZgetPaymentInfoResponse.h */; };
+		508d8c08a8e6cd9100000000 /* SDZreservationInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 508d8b0ea8e6cd8e00000000 /* SDZreservationInfo.m */; };
+		508d8c09a8e6cd9100000000 /* SDZRoomRateDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = 508d8b0fa8e6cd8e00000000 /* SDZRoomRateDetails.m */; };
+		508d8c0aa8e6cd9100000000 /* SDZgetItineraryResponse.h in Sources */ = {isa = PBXBuildFile; fileRef = 508d8b10a8e6cd8e00000000 /* SDZgetItineraryResponse.h */; };
+		508d8c0ba8e6cd9100000000 /* SDZHotelRoomImageResponse.h in Sources */ = {isa = PBXBuildFile; fileRef = 508d8b11a8e6cd8e00000000 /* SDZHotelRoomImageResponse.h */; };
+		508d8c0ca8e6cd9100000000 /* SDZRateChangeInfo.h in Sources */ = {isa = PBXBuildFile; fileRef = 508d8b12a8e6cd8e00000000 /* SDZRateChangeInfo.h */; };
+		508d8c0da8e6cd9100000000 /* SDZHotelRoomResponse.h in Sources */ = {isa = PBXBuildFile; fileRef = 508d8b13a8e6cd8e00000000 /* SDZHotelRoomResponse.h */; };
+		508d8c0ea8e6cd9100000000 /* SDZAlternatePropertyListResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 508d8b14a8e6cd8e00000000 /* SDZAlternatePropertyListResponse.m */; };
+		508d8c0fa8e6cd9100000000 /* SDZRateInfos.m in Sources */ = {isa = PBXBuildFile; fileRef = 508d8b15a8e6cd8e00000000 /* SDZRateInfos.m */; };
+		508d8c10a8e6cd9100000000 /* SDZHotelInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 508d8b16a8e6cd8e00000000 /* SDZHotelInfo.m */; };
+		508d8c11a8e6cd9100000000 /* SDZRoomImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 508d8b17a8e6cd8e00000000 /* SDZRoomImage.m */; };
+		508d8c12a8e6cd9100000000 /* SDZBaseResponse.h in Sources */ = {isa = PBXBuildFile; fileRef = 508d8b18a8e6cd8e00000000 /* SDZBaseResponse.h */; };
+		508d8c13a8e6cd9100000000 /* SDZgetRateRulesResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 508d8b19a8e6cd8e00000000 /* SDZgetRateRulesResponse.m */; };
+		508d8c14a8e6cd9100000000 /* SDZHotelListResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 508d8b1aa8e6cd8e00000000 /* SDZHotelListResponse.m */; };
+		508d8c15a8e6cd9100000000 /* SDZSuppliers.h in Sources */ = {isa = PBXBuildFile; fileRef = 508d8b1ba8e6cd8e00000000 /* SDZSuppliers.h */; };
+		508d8c16a8e6cd9100000000 /* SDZHotelRoomAvailabilityResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 508d8b1ca8e6cd8e00000000 /* SDZHotelRoomAvailabilityResponse.m */; };
+		508d8c17a8e6cd9100000000 /* SDZgetItinerary.m in Sources */ = {isa = PBXBuildFile; fileRef = 508d8b1da8e6cd8e00000000 /* SDZgetItinerary.m */; };
+		508d8c18a8e6cd9100000000 /* SDZlistWithSizeAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 508d8b1ea8e6cd8e00000000 /* SDZlistWithSizeAttribute.m */; };
+		508d8c19a8e6cd9100000000 /* SDZAmenities.m in Sources */ = {isa = PBXBuildFile; fileRef = 508d8b1fa8e6cd8e00000000 /* SDZAmenities.m */; };
+		508d8c1aa8e6cd9100000000 /* SDZHotelRoomReservationResponse.h in Sources */ = {isa = PBXBuildFile; fileRef = 508d8b20a8e6cd8e00000000 /* SDZHotelRoomReservationResponse.h */; };
+		508d8c1ba8e6cd9100000000 /* SDZgetItineraryResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 508d8b21a8e6cd8e00000000 /* SDZgetItineraryResponse.m */; };
+		508d8c1ca8e6cd9100000000 /* SDZbaseRateInfoSurcharges.h in Sources */ = {isa = PBXBuildFile; fileRef = 508d8b22a8e6cd8e00000000 /* SDZbaseRateInfoSurcharges.h */; };
+		508d8c1da8e6cd9100000000 /* SDZgetRoomImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 508d8b23a8e6cd8e00000000 /* SDZgetRoomImage.m */; };
+		508d8c1ea8e6cd9100000000 /* SDZHotelRateInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 508d8b24a8e6cd8e00000000 /* SDZHotelRateInfo.m */; };
+		508d8c1fa8e6cd9100000000 /* SDZBaseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 508d8b25a8e6cd8e00000000 /* SDZBaseRequest.m */; };
+		508d8c20a8e6cd9100000000 /* SDZHotelItineraryResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 508d8b26a8e6cd8e00000000 /* SDZHotelItineraryResponse.m */; };
+		508d8c21a8e6cd9100000000 /* SDZHotelRoomImageRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 508d8b27a8e6cd8e00000000 /* SDZHotelRoomImageRequest.m */; };
+		508d8c22a8e6cd9100000000 /* SDZHotelPaymentRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 508d8b28a8e6cd8e00000000 /* SDZHotelPaymentRequest.m */; };
+		508d8c23a8e6cd9100000000 /* SDZHotelSummary.h in Sources */ = {isa = PBXBuildFile; fileRef = 508d8b29a8e6cd8e00000000 /* SDZHotelSummary.h */; };
+		508d8c24a8e6cd9100000000 /* SDZbaseRateInfoNightlyRatesPerRoom.h in Sources */ = {isa = PBXBuildFile; fileRef = 508d8b2aa8e6cd8e00000000 /* SDZbaseRateInfoNightlyRatesPerRoom.h */; };
+		508d8c25a8e6cd9100000000 /* SDZPingRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 508d8b2ba8e6cd8e00000000 /* SDZPingRequest.m */; };
+		508d8c26a8e6cd9100000000 /* SDZPingResponse.h in Sources */ = {isa = PBXBuildFile; fileRef = 508d8b2ca8e6cd8e00000000 /* SDZPingResponse.h */; };
+		508d8c27a8e6cd9100000000 /* SDZCachedSupplierResponse.h in Sources */ = {isa = PBXBuildFile; fileRef = 508d8b2da8e6cd8e00000000 /* SDZCachedSupplierResponse.h */; };
+		508d8c28a8e6cd9100000000 /* SDZRateChangeInfos.m in Sources */ = {isa = PBXBuildFile; fileRef = 508d8b2ea8e6cd8e00000000 /* SDZRateChangeInfos.m */; };
+		508d8c29a8e6cd9100000000 /* SDZDiscount.m in Sources */ = {isa = PBXBuildFile; fileRef = 508d8b2fa8e6cd8e00000000 /* SDZDiscount.m */; };
+		508d8c2aa8e6cd9100000000 /* SDZItineraryQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 508d8b30a8e6cd8e00000000 /* SDZItineraryQuery.m */; };
+		508d8c2ba8e6cd9100000000 /* SDZgetReservation.h in Sources */ = {isa = PBXBuildFile; fileRef = 508d8b31a8e6cd8e00000000 /* SDZgetReservation.h */; };
+		508d8c2ca8e6cd9100000000 /* SDZaddressInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 508d8b32a8e6cd8e00000000 /* SDZaddressInfo.m */; };
+		508d8c2da8e6cd9100000000 /* SDZRateRulesFreeFlows.h in Sources */ = {isa = PBXBuildFile; fileRef = 508d8b33a8e6cd8e00000000 /* SDZRateRulesFreeFlows.h */; };
+		508d8c2ea8e6cd9100000000 /* SDZRateChangeInfos.h in Sources */ = {isa = PBXBuildFile; fileRef = 508d8b34a8e6cd8e00000000 /* SDZRateChangeInfos.h */; };
+		508d8c2fa8e6cd9200000000 /* SDZgetAvailability.m in Sources */ = {isa = PBXBuildFile; fileRef = 508d8b35a8e6cd8e00000000 /* SDZgetAvailability.m */; };
+		508d8c30a8e6cd9200000000 /* SDZgetRateRules.h in Sources */ = {isa = PBXBuildFile; fileRef = 508d8b36a8e6cd8e00000000 /* SDZgetRateRules.h */; };
+		508d8c31a8e6cd9200000000 /* SDZCouponInformation.m in Sources */ = {isa = PBXBuildFile; fileRef = 508d8b37a8e6cd8e00000000 /* SDZCouponInformation.m */; };
+		508d8c32a8e6cd9200000000 /* SDZRoomGroup.h in Sources */ = {isa = PBXBuildFile; fileRef = 508d8b38a8e6cd8e00000000 /* SDZRoomGroup.h */; };
+		508d8c33a8e6cd9200000000 /* SDZHotelConfirmation.h in Sources */ = {isa = PBXBuildFile; fileRef = 508d8b39a8e6cd8e00000000 /* SDZHotelConfirmation.h */; };
+		508d8c34a8e6cd9200000000 /* SDZHotelPaymentResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 508d8b3aa8e6cd8e00000000 /* SDZHotelPaymentResponse.m */; };
+		508d8c35a8e6cd9200000000 /* SDZv3.HotelPaymentRequest.h in Sources */ = {isa = PBXBuildFile; fileRef = 508d8b3ba8e6cd8e00000000 /* SDZv3.HotelPaymentRequest.h */; };
+		508d8c36a8e6cd9200000000 /* SDZCouponInformationResponse.h in Sources */ = {isa = PBXBuildFile; fileRef = 508d8b3ca8e6cd8e00000000 /* SDZCouponInformationResponse.h */; };
+		508d8c37a8e6cd9200000000 /* SDZNightlyRate.m in Sources */ = {isa = PBXBuildFile; fileRef = 508d8b3da8e6cd8e00000000 /* SDZNightlyRate.m */; };
+		508d8c38a8e6cd9200000000 /* Soap+Prefix.h in Sources */ = {isa = PBXBuildFile; fileRef = 508d8b3ea8e6cd8e00000000 /* Soap+Prefix.h */; };
+		508d8c39a8e6cd9200000000 /* SDZRoomRateDetailsList.m in Sources */ = {isa = PBXBuildFile; fileRef = 508d8b3fa8e6cd8e00000000 /* SDZRoomRateDetailsList.m */; };
+		508d8c3aa8e6cd9200000000 /* SDZHotelRoomCancellationRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 508d8b40a8e6cd8e00000000 /* SDZHotelRoomCancellationRequest.m */; };
+		508d8c3ba8e6cd9200000000 /* SDZbedType.m in Sources */ = {isa = PBXBuildFile; fileRef = 508d8b41a8e6cd8f00000000 /* SDZbedType.m */; };
+		508d8c3ca8e6cd9200000000 /* SDZCachedSupplierResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 508d8b42a8e6cd8f00000000 /* SDZCachedSupplierResponse.m */; };
+		508d8c3da8e6cd9200000000 /* SDZServerInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 508d8b43a8e6cd8f00000000 /* SDZServerInfo.m */; };
+		508d8c3ea8e6cd9200000000 /* SDZLocationInfoResponse.h in Sources */ = {isa = PBXBuildFile; fileRef = 508d8b44a8e6cd8f00000000 /* SDZLocationInfoResponse.h */; };
+		508d8c3fa8e6cd9200000000 /* SDZLocationInfoResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 508d8b45a8e6cd8f00000000 /* SDZLocationInfoResponse.m */; };
+		508d8c40a8e6cd9200000000 /* SDZbaseRateInfoDiscounts.m in Sources */ = {isa = PBXBuildFile; fileRef = 508d8b46a8e6cd8f00000000 /* SDZbaseRateInfoDiscounts.m */; };
+		508d8c41a8e6cd9200000000 /* SDZgetAvailabilityResponse.h in Sources */ = {isa = PBXBuildFile; fileRef = 508d8b47a8e6cd8f00000000 /* SDZgetAvailabilityResponse.h */; };
+		508d8c42a8e6cd9200000000 /* SDZConfirmationExtra.h in Sources */ = {isa = PBXBuildFile; fileRef = 508d8b48a8e6cd8f00000000 /* SDZConfirmationExtra.h */; };
+		508d8c43a8e6cd9200000000 /* SDZBedTypes.h in Sources */ = {isa = PBXBuildFile; fileRef = 508d8b49a8e6cd8f00000000 /* SDZBedTypes.h */; };
+		508d8c44a8e6cd9200000000 /* SDZAmenities.h in Sources */ = {isa = PBXBuildFile; fileRef = 508d8b4aa8e6cd8f00000000 /* SDZAmenities.h */; };
+		508d8c45a8e6cd9200000000 /* SDZAlternateHotelResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 508d8b4ba8e6cd8f00000000 /* SDZAlternateHotelResponse.m */; };
+		508d8c46a8e6cd9200000000 /* SDZLocationInfos.h in Sources */ = {isa = PBXBuildFile; fileRef = 508d8b4ca8e6cd8f00000000 /* SDZLocationInfos.h */; };
+		508d8c47a8e6cd9200000000 /* SDZHotelImages.h in Sources */ = {isa = PBXBuildFile; fileRef = 508d8b4da8e6cd8f00000000 /* SDZHotelImages.h */; };
+		508d8c48a8e6cd9200000000 /* SDZConfirmationExtras.m in Sources */ = {isa = PBXBuildFile; fileRef = 508d8b4ea8e6cd8f00000000 /* SDZConfirmationExtras.m */; };
+		508d8c49a8e6cd9200000000 /* SDZCancelPolicyInfoList.h in Sources */ = {isa = PBXBuildFile; fileRef = 508d8b4fa8e6cd8f00000000 /* SDZCancelPolicyInfoList.h */; };
+		508d8c4aa8e6cd9200000000 /* SDZgetList.m in Sources */ = {isa = PBXBuildFile; fileRef = 508d8b50a8e6cd8f00000000 /* SDZgetList.m */; };
+		508d8c4ba8e6cd9200000000 /* SDZErrorAttributes.m in Sources */ = {isa = PBXBuildFile; fileRef = 508d8b51a8e6cd8f00000000 /* SDZErrorAttributes.m */; };
+		508d8c4ca8e6cd9200000000 /* SDZHotelServicesImplService.h in Sources */ = {isa = PBXBuildFile; fileRef = 508d8b52a8e6cd8f00000000 /* SDZHotelServicesImplService.h */; };
+		508d8c4da8e6cd9200000000 /* SDZServerInfo.h in Sources */ = {isa = PBXBuildFile; fileRef = 508d8b53a8e6cd8f00000000 /* SDZServerInfo.h */; };
+		508d8c4ea8e6cd9200000000 /* SDZRoom.h in Sources */ = {isa = PBXBuildFile; fileRef = 508d8b54a8e6cd8f00000000 /* SDZRoom.h */; };
+		508d8c4fa8e6cd9200000000 /* SDZRateChangeInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 508d8b55a8e6cd8f00000000 /* SDZRateChangeInfo.m */; };
+		508d8c50a8e6cd9200000000 /* SDZSurcharge.h in Sources */ = {isa = PBXBuildFile; fileRef = 508d8b56a8e6cd8f00000000 /* SDZSurcharge.h */; };
+		508d8c51a8e6cd9200000000 /* SDZgetInformation.h in Sources */ = {isa = PBXBuildFile; fileRef = 508d8b57a8e6cd8f00000000 /* SDZgetInformation.h */; };
+		508d8c52a8e6cd9200000000 /* SDZgetAlternatePropertiesResponse.h in Sources */ = {isa = PBXBuildFile; fileRef = 508d8b58a8e6cd8f00000000 /* SDZgetAlternatePropertiesResponse.h */; };
+		508d8c53a8e6cd9200000000 /* SDZHotelPaymentResponse.h in Sources */ = {isa = PBXBuildFile; fileRef = 508d8b59a8e6cd8f00000000 /* SDZHotelPaymentResponse.h */; };
+		508d8c54a8e6cd9200000000 /* SDZHotelRoomAvailabilityRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 508d8b5aa8e6cd8f00000000 /* SDZHotelRoomAvailabilityRequest.m */; };
+		508d8c55a8e6cd9200000000 /* SDZHotelSummary.m in Sources */ = {isa = PBXBuildFile; fileRef = 508d8b5ba8e6cd8f00000000 /* SDZHotelSummary.m */; };
+		508d8c56a8e6cd9200000000 /* SDZHotelInformationRequest.h in Sources */ = {isa = PBXBuildFile; fileRef = 508d8b5ca8e6cd8f00000000 /* SDZHotelInformationRequest.h */; };
+		508d8c57a8e6cd9200000000 /* SDZHotelItineraryRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 508d8b5da8e6cd8f00000000 /* SDZHotelItineraryRequest.m */; };
+		508d8c58a8e6cd9200000000 /* SDZgetPaymentInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 508d8b5ea8e6cd8f00000000 /* SDZgetPaymentInfo.m */; };
+		508d8c59a8e6cd9200000000 /* SDZHotelItineraryRequest.h in Sources */ = {isa = PBXBuildFile; fileRef = 508d8b5fa8e6cd8f00000000 /* SDZHotelItineraryRequest.h */; };
+		508d8c5aa8e6cd9200000000 /* SDZgetGeoLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 508d8b60a8e6cd8f00000000 /* SDZgetGeoLocation.m */; };
+		508d8c5ba8e6cd9200000000 /* SDZHotelConfirmation.m in Sources */ = {isa = PBXBuildFile; fileRef = 508d8b61a8e6cd8f00000000 /* SDZHotelConfirmation.m */; };
+		508d8c5ca8e6cd9200000000 /* SDZServices.h in Sources */ = {isa = PBXBuildFile; fileRef = 508d8b62a8e6cd8f00000000 /* SDZServices.h */; };
+		508d8c5da8e6cd9200000000 /* SDZHotelList.h in Sources */ = {isa = PBXBuildFile; fileRef = 508d8b63a8e6cd8f00000000 /* SDZHotelList.h */; };
+		508d8c5ea8e6cd9200000000 /* SDZCouponInformation.h in Sources */ = {isa = PBXBuildFile; fileRef = 508d8b64a8e6cd8f00000000 /* SDZCouponInformation.h */; };
+		508d8c5fa8e6cd9200000000 /* SDZHotelImages.m in Sources */ = {isa = PBXBuildFile; fileRef = 508d8b65a8e6cd8f00000000 /* SDZHotelImages.m */; };
+		508d8c60a8e6cd9200000000 /* SDZCouponErrors.m in Sources */ = {isa = PBXBuildFile; fileRef = 508d8b66a8e6cd8f00000000 /* SDZCouponErrors.m */; };
+		508d8c61a8e6cd9200000000 /* SDZHotelRoomCancellationRequest.h in Sources */ = {isa = PBXBuildFile; fileRef = 508d8b67a8e6cd8f00000000 /* SDZHotelRoomCancellationRequest.h */; };
+		508d8c62a8e6cd9200000000 /* SDZgetRoomImageResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 508d8b68a8e6cd8f00000000 /* SDZgetRoomImageResponse.m */; };
+		508d8c63a8e6cd9200000000 /* SDZRateRulesFreeFlows.m in Sources */ = {isa = PBXBuildFile; fileRef = 508d8b69a8e6cd8f00000000 /* SDZRateRulesFreeFlows.m */; };
+		508d8c64a8e6cd9200000000 /* SDZAlternatePropertyListRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 508d8b6aa8e6cd8f00000000 /* SDZAlternatePropertyListRequest.m */; };
+		508d8c65a8e6cd9200000000 /* SDZValueAdds.h in Sources */ = {isa = PBXBuildFile; fileRef = 508d8b6ba8e6cd8f00000000 /* SDZValueAdds.h */; };
+		508d8c66a8e6cd9200000000 /* SDZRoomAmenities.m in Sources */ = {isa = PBXBuildFile; fileRef = 508d8b6ca8e6cd8f00000000 /* SDZRoomAmenities.m */; };
+		508d8c67a8e6cd9200000000 /* SDZHotelRoomCancellationResponse.h in Sources */ = {isa = PBXBuildFile; fileRef = 508d8b6da8e6cd8f00000000 /* SDZHotelRoomCancellationResponse.h */; };
+		508d8c68a8e6cd9200000000 /* SDZHotelRoomImageRequest.h in Sources */ = {isa = PBXBuildFile; fileRef = 508d8b6ea8e6cd8f00000000 /* SDZHotelRoomImageRequest.h */; };
+		508d8c69a8e6cd9200000000 /* SDZHotelPaymentRequest.h in Sources */ = {isa = PBXBuildFile; fileRef = 508d8b6fa8e6cd8f00000000 /* SDZHotelPaymentRequest.h */; };
+		508d8c6aa8e6cd9200000000 /* SDZHotelListRequest.h in Sources */ = {isa = PBXBuildFile; fileRef = 508d8b70a8e6cd8f00000000 /* SDZHotelListRequest.h */; };
+		508d8c6ba8e6cd9200000000 /* SDZHotelInformationResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 508d8b71a8e6cd8f00000000 /* SDZHotelInformationResponse.m */; };
+		508d8c6ca8e6cd9200000000 /* SDZHotel.h in Sources */ = {isa = PBXBuildFile; fileRef = 508d8b72a8e6cd8f00000000 /* SDZHotel.h */; };
+		508d8c6da8e6cd9200000000 /* SDZbaseRateInfoDiscounts.h in Sources */ = {isa = PBXBuildFile; fileRef = 508d8b73a8e6cd8f00000000 /* SDZbaseRateInfoDiscounts.h */; };
+		508d8c6ea8e6cd9200000000 /* SDZgetInformation.m in Sources */ = {isa = PBXBuildFile; fileRef = 508d8b74a8e6cd8f00000000 /* SDZgetInformation.m */; };
+		508d8c6fa8e6cd9200000000 /* SDZHotelDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = 508d8b75a8e6cd8f00000000 /* SDZHotelDetails.m */; };
+		508d8c70a8e6cd9200000000 /* SDZLocationInfoRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 508d8b76a8e6cd8f00000000 /* SDZLocationInfoRequest.m */; };
+		508d8c71a8e6cd9200000000 /* SDZLocationInfo.h in Sources */ = {isa = PBXBuildFile; fileRef = 508d8b77a8e6cd8f00000000 /* SDZLocationInfo.h */; };
+		508d8c72a8e6cd9200000000 /* SDZBaseRequest.h in Sources */ = {isa = PBXBuildFile; fileRef = 508d8b78a8e6cd8f00000000 /* SDZBaseRequest.h */; };
+		508d8c73a8e6cd9200000000 /* SDZgetAlternateProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 508d8b79a8e6cd8f00000000 /* SDZgetAlternateProperties.m */; };
+		508d8c74a8e6cd9200000000 /* SDZPingRequest.h in Sources */ = {isa = PBXBuildFile; fileRef = 508d8b7aa8e6cd8f00000000 /* SDZPingRequest.h */; };
+		508d8c75a8e6cd9200000000 /* SDZHotelServicesImplService.m in Sources */ = {isa = PBXBuildFile; fileRef = 508d8b7ba8e6cd8f00000000 /* SDZHotelServicesImplService.m */; };
+		508d8c76a8e6cd9200000000 /* SDZgetInformationResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 508d8b7ca8e6cd8f00000000 /* SDZgetInformationResponse.m */; };
+		508d8c77a8e6cd9200000000 /* SDZgetAlternateProperties.h in Sources */ = {isa = PBXBuildFile; fileRef = 508d8b7da8e6cd8f00000000 /* SDZgetAlternateProperties.h */; };
+		508d8c78a8e6cd9200000000 /* SDZLowestRateInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 508d8b7ea8e6cd8f00000000 /* SDZLowestRateInfo.m */; };
+		508d8c79a8e6cd9200000000 /* SDZgetListResponse.h in Sources */ = {isa = PBXBuildFile; fileRef = 508d8b7fa8e6cd8f00000000 /* SDZgetListResponse.h */; };
+		508d8c7aa8e6cd9200000000 /* SDZRoomTypes.m in Sources */ = {isa = PBXBuildFile; fileRef = 508d8b80a8e6cd8f00000000 /* SDZRoomTypes.m */; };
+		508d8c7ba8e6cd9200000000 /* SDZBaseResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 508d8b81a8e6cd8f00000000 /* SDZBaseResponse.m */; };
+		508d8c7ca8e6cd9200000000 /* SDZCustomerAddress.h in Sources */ = {isa = PBXBuildFile; fileRef = 508d8b82a8e6cd8f00000000 /* SDZCustomerAddress.h */; };
+		508d8c7da8e6cd9200000000 /* SDZItinerary.m in Sources */ = {isa = PBXBuildFile; fileRef = 508d8b83a8e6cd8f00000000 /* SDZItinerary.m */; };
+		508d8c7ea8e6cd9200000000 /* SDZHotelRoomReservationResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 508d8b84a8e6cd8f00000000 /* SDZHotelRoomReservationResponse.m */; };
+		508d8c7fa8e6cd9200000000 /* SDZLocationInfos.m in Sources */ = {isa = PBXBuildFile; fileRef = 508d8b85a8e6cd8f00000000 /* SDZLocationInfos.m */; };
+		508d8c80a8e6cd9200000000 /* SDZgetRateRulesResponse.h in Sources */ = {isa = PBXBuildFile; fileRef = 508d8b86a8e6cd8f00000000 /* SDZgetRateRulesResponse.h */; };
+		508d8c81a8e6cd9200000000 /* SDZError.m in Sources */ = {isa = PBXBuildFile; fileRef = 508d8b87a8e6cd8f00000000 /* SDZError.m */; };
+		508d8c82a8e6cd9200000000 /* SDZHotelRoomAvailabilityResponse.h in Sources */ = {isa = PBXBuildFile; fileRef = 508d8b88a8e6cd8f00000000 /* SDZHotelRoomAvailabilityResponse.h */; };
+		508d8c83a8e6cd9200000000 /* SDZgetCancellationResponse.h in Sources */ = {isa = PBXBuildFile; fileRef = 508d8b89a8e6cd8f00000000 /* SDZgetCancellationResponse.h */; };
+		508d8c84a8e6cd9200000000 /* Soap+Prefix.m in Sources */ = {isa = PBXBuildFile; fileRef = 508d8b8aa8e6cd8f00000000 /* Soap+Prefix.m */; };
+		508d8c85a8e6cd9200000000 /* SDZRateRulesFreeFlow.m in Sources */ = {isa = PBXBuildFile; fileRef = 508d8b8ba8e6cd9000000000 /* SDZRateRulesFreeFlow.m */; };
+		508d8c86a8e6cd9200000000 /* SDZAlternatePropertyListRequest.h in Sources */ = {isa = PBXBuildFile; fileRef = 508d8b8ca8e6cd9000000000 /* SDZAlternatePropertyListRequest.h */; };
+		508d8c87a8e6cd9200000000 /* SDZCouponErrors.h in Sources */ = {isa = PBXBuildFile; fileRef = 508d8b8da8e6cd9000000000 /* SDZCouponErrors.h */; };
+		508d8c88a8e6cd9200000000 /* SDZRoomType.h in Sources */ = {isa = PBXBuildFile; fileRef = 508d8b8ea8e6cd9000000000 /* SDZRoomType.h */; };
+		508d8c89a8e6cd9200000000 /* SDZHotelInfo.h in Sources */ = {isa = PBXBuildFile; fileRef = 508d8b8fa8e6cd9000000000 /* SDZHotelInfo.h */; };
+		508d8c8aa8e6cd9200000000 /* SDZHotelListResponse.h in Sources */ = {isa = PBXBuildFile; fileRef = 508d8b90a8e6cd9000000000 /* SDZHotelListResponse.h */; };
+		508d8c8ba8e6cd9200000000 /* SDZHotelRoomAvailabilityRequest.h in Sources */ = {isa = PBXBuildFile; fileRef = 508d8b91a8e6cd9000000000 /* SDZHotelRoomAvailabilityRequest.h */; };
+		508d8c8ca8e6cd9200000000 /* SDZLocationInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 508d8b92a8e6cd9000000000 /* SDZLocationInfo.m */; };
+		508d8c8da8e6cd9200000000 /* SDZHotelImage.h in Sources */ = {isa = PBXBuildFile; fileRef = 508d8b93a8e6cd9000000000 /* SDZHotelImage.h */; };
+		508d8c8ea8e6cd9200000000 /* SDZgetPing.h in Sources */ = {isa = PBXBuildFile; fileRef = 508d8b94a8e6cd9000000000 /* SDZgetPing.h */; };
+		508d8c8fa8e6cd9200000000 /* SDZHotelRoomCancellationResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 508d8b95a8e6cd9000000000 /* SDZHotelRoomCancellationResponse.m */; };
+		508d8c90a8e6cd9300000000 /* SDZgetInformationResponse.h in Sources */ = {isa = PBXBuildFile; fileRef = 508d8b96a8e6cd9000000000 /* SDZgetInformationResponse.h */; };
+		508d8c91a8e6cd9300000000 /* SDZPropertyAmenities.m in Sources */ = {isa = PBXBuildFile; fileRef = 508d8b97a8e6cd9000000000 /* SDZPropertyAmenities.m */; };
+		508d8c92a8e6cd9300000000 /* SDZRoomRateDetails.h in Sources */ = {isa = PBXBuildFile; fileRef = 508d8b98a8e6cd9000000000 /* SDZRoomRateDetails.h */; };
+		508d8c93a8e6cd9300000000 /* SDZHotel.m in Sources */ = {isa = PBXBuildFile; fileRef = 508d8b99a8e6cd9000000000 /* SDZHotel.m */; };
+		508d8c94a8e6cd9300000000 /* SDZgetReservationResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 508d8b9aa8e6cd9000000000 /* SDZgetReservationResponse.m */; };
+		508d8c95a8e6cd9300000000 /* SDZRoomAmenity.m in Sources */ = {isa = PBXBuildFile; fileRef = 508d8b9ba8e6cd9000000000 /* SDZRoomAmenity.m */; };
+		508d8c96a8e6cd9300000000 /* SDZRoomImage.h in Sources */ = {isa = PBXBuildFile; fileRef = 508d8b9ca8e6cd9000000000 /* SDZRoomImage.h */; };
+		508d8c97a8e6cd9300000000 /* SDZHotelRoomReservationRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 508d8b9da8e6cd9000000000 /* SDZHotelRoomReservationRequest.m */; };
+		508d8c98a8e6cd9300000000 /* SDZgetGeoLocation.h in Sources */ = {isa = PBXBuildFile; fileRef = 508d8b9ea8e6cd9000000000 /* SDZgetGeoLocation.h */; };
+		508d8c99a8e6cd9300000000 /* SDZSuppliers.m in Sources */ = {isa = PBXBuildFile; fileRef = 508d8b9fa8e6cd9000000000 /* SDZSuppliers.m */; };
+		508d8c9aa8e6cd9300000000 /* SDZNightlyRate.h in Sources */ = {isa = PBXBuildFile; fileRef = 508d8ba0a8e6cd9000000000 /* SDZNightlyRate.h */; };
+		508d8c9ba8e6cd9300000000 /* SDZgetItinerary.h in Sources */ = {isa = PBXBuildFile; fileRef = 508d8ba1a8e6cd9000000000 /* SDZgetItinerary.h */; };
+		508d8c9ca8e6cd9300000000 /* SDZRoomTypes.h in Sources */ = {isa = PBXBuildFile; fileRef = 508d8ba2a8e6cd9000000000 /* SDZRoomTypes.h */; };
+		508d8c9da8e6cd9300000000 /* SDZCustomer.m in Sources */ = {isa = PBXBuildFile; fileRef = 508d8ba3a8e6cd9000000000 /* SDZCustomer.m */; };
+		508d8c9ea8e6cd9300000000 /* SDZHotelDetails.h in Sources */ = {isa = PBXBuildFile; fileRef = 508d8ba4a8e6cd9000000000 /* SDZHotelDetails.h */; };
+		508d8c9fa8e6cd9300000000 /* SDZgetPing.m in Sources */ = {isa = PBXBuildFile; fileRef = 508d8ba5a8e6cd9000000000 /* SDZgetPing.m */; };
+		508d8ca0a8e6cd9300000000 /* SDZgetRoomImage.h in Sources */ = {isa = PBXBuildFile; fileRef = 508d8ba6a8e6cd9000000000 /* SDZgetRoomImage.h */; };
+		508d8ca1a8e6cd9300000000 /* SDZHotelRateRulesRequest.h in Sources */ = {isa = PBXBuildFile; fileRef = 508d8ba7a8e6cd9000000000 /* SDZHotelRateRulesRequest.h */; };
+		508d8ca2a8e6cd9300000000 /* SDZbedType.h in Sources */ = {isa = PBXBuildFile; fileRef = 508d8ba8a8e6cd9000000000 /* SDZbedType.h */; };
+		508d8ca3a8e6cd9300000000 /* SDZbaseRateInfoNightlyRatesPerRoom.m in Sources */ = {isa = PBXBuildFile; fileRef = 508d8ba9a8e6cd9000000000 /* SDZbaseRateInfoNightlyRatesPerRoom.m */; };
+		508d8ca4a8e6cd9300000000 /* SDZgetPaymentInfoResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 508d8baaa8e6cd9000000000 /* SDZgetPaymentInfoResponse.m */; };
+		508d8ca5a8e6cd9300000000 /* SDZPaymentType.m in Sources */ = {isa = PBXBuildFile; fileRef = 508d8baba8e6cd9000000000 /* SDZPaymentType.m */; };
+		508d8ca6a8e6cd9300000000 /* SDZgetPaymentInfo.h in Sources */ = {isa = PBXBuildFile; fileRef = 508d8baca8e6cd9000000000 /* SDZgetPaymentInfo.h */; };
+		508d8ca7a8e6cd9300000000 /* SDZCouponInformationResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 508d8bada8e6cd9000000000 /* SDZCouponInformationResponse.m */; };
+		508d8ca8a8e6cd9300000000 /* SDZAlternateHotelResponse.h in Sources */ = {isa = PBXBuildFile; fileRef = 508d8baea8e6cd9000000000 /* SDZAlternateHotelResponse.h */; };
+		508d8ca9a8e6cd9300000000 /* SDZgetRoomImageResponse.h in Sources */ = {isa = PBXBuildFile; fileRef = 508d8bafa8e6cd9000000000 /* SDZgetRoomImageResponse.h */; };
+		508d8caaa8e6cd9300000000 /* SDZSupplier.m in Sources */ = {isa = PBXBuildFile; fileRef = 508d8bb0a8e6cd9000000000 /* SDZSupplier.m */; };
+		508d8caba8e6cd9300000000 /* SDZServices.m in Sources */ = {isa = PBXBuildFile; fileRef = 508d8bb1a8e6cd9000000000 /* SDZServices.m */; };
+		508d8caca8e6cd9300000000 /* SDZRoomImages.h in Sources */ = {isa = PBXBuildFile; fileRef = 508d8bb2a8e6cd9000000000 /* SDZRoomImages.h */; };
+		508d8cada8e6cd9300000000 /* SDZPropertyAmenity.h in Sources */ = {isa = PBXBuildFile; fileRef = 508d8bb3a8e6cd9000000000 /* SDZPropertyAmenity.h */; };
+		508d8caea8e6cd9300000000 /* SDZCancelPolicyInfo.h in Sources */ = {isa = PBXBuildFile; fileRef = 508d8bb4a8e6cd9000000000 /* SDZCancelPolicyInfo.h */; };
+		508d8cafa8e6cd9300000000 /* SDZgetPingResponse.h in Sources */ = {isa = PBXBuildFile; fileRef = 508d8bb5a8e6cd9000000000 /* SDZgetPingResponse.h */; };
+		508d8cb0a8e6cd9300000000 /* SDZError.h in Sources */ = {isa = PBXBuildFile; fileRef = 508d8bb6a8e6cd9000000000 /* SDZError.h */; };
+		508d8cb1a8e6cd9300000000 /* SDZConfirmationExtra.m in Sources */ = {isa = PBXBuildFile; fileRef = 508d8bb7a8e6cd9000000000 /* SDZConfirmationExtra.m */; };
+		508d8cb2a8e6cd9300000000 /* SDZHotelInformationRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 508d8bb8a8e6cd9000000000 /* SDZHotelInformationRequest.m */; };
+		508d8cb3a8e6cd9300000000 /* SDZgetCancellation.m in Sources */ = {isa = PBXBuildFile; fileRef = 508d8bb9a8e6cd9000000000 /* SDZgetCancellation.m */; };
+		508d8cb4a8e6cd9300000000 /* SDZPropertyAmenity.m in Sources */ = {isa = PBXBuildFile; fileRef = 508d8bbaa8e6cd9000000000 /* SDZPropertyAmenity.m */; };
+		508d8cb5a8e6cd9300000000 /* SDZHotelRateRulesResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 508d8bbba8e6cd9000000000 /* SDZHotelRateRulesResponse.m */; };
+		508d8cb6a8e6cd9300000000 /* SDZHotelRateRulesResponse.h in Sources */ = {isa = PBXBuildFile; fileRef = 508d8bbca8e6cd9000000000 /* SDZHotelRateRulesResponse.h */; };
+		508d8cb7a8e6cd9300000000 /* SDZgetCancellation.h in Sources */ = {isa = PBXBuildFile; fileRef = 508d8bbda8e6cd9000000000 /* SDZgetCancellation.h */; };
+		508d8cb8a8e6cd9300000000 /* SDZReservationGuest.m in Sources */ = {isa = PBXBuildFile; fileRef = 508d8bbea8e6cd9000000000 /* SDZReservationGuest.m */; };
+		508d8cb9a8e6cd9300000000 /* SDZBedTypes.m in Sources */ = {isa = PBXBuildFile; fileRef = 508d8bbfa8e6cd9000000000 /* SDZBedTypes.m */; };
+		508d8cbaa8e6cd9300000000 /* SDZHotelList.m in Sources */ = {isa = PBXBuildFile; fileRef = 508d8bc0a8e6cd9000000000 /* SDZHotelList.m */; };
+		508d8cbba8e6cd9300000000 /* SDZHotelImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 508d8bc1a8e6cd9000000000 /* SDZHotelImage.m */; };
+		508d8cbca8e6cd9300000000 /* SDZreservationInfo.h in Sources */ = {isa = PBXBuildFile; fileRef = 508d8bc2a8e6cd9000000000 /* SDZreservationInfo.h */; };
+		508d8cbda8e6cd9300000000 /* SDZLocationInfoRequest.h in Sources */ = {isa = PBXBuildFile; fileRef = 508d8bc3a8e6cd9000000000 /* SDZLocationInfoRequest.h */; };
+		508d8cbea8e6cd9300000000 /* SDZPingResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 508d8bc4a8e6cd9000000000 /* SDZPingResponse.m */; };
+		508d8cbfa8e6cd9300000000 /* SDZConfirmationExtras.h in Sources */ = {isa = PBXBuildFile; fileRef = 508d8bc5a8e6cd9000000000 /* SDZConfirmationExtras.h */; };
+		508d8cc0a8e6cd9300000000 /* SDZRoomRateDetailsList.h in Sources */ = {isa = PBXBuildFile; fileRef = 508d8bc6a8e6cd9000000000 /* SDZRoomRateDetailsList.h */; };
+		508d8cc1a8e6cd9300000000 /* SDZgetRateRules.m in Sources */ = {isa = PBXBuildFile; fileRef = 508d8bc7a8e6cd9000000000 /* SDZgetRateRules.m */; };
+		508d8cc2a8e6cd9300000000 /* SDZRoomAmenity.h in Sources */ = {isa = PBXBuildFile; fileRef = 508d8bc8a8e6cd9000000000 /* SDZRoomAmenity.h */; };
+		508d8cc3a8e6cd9300000000 /* SDZgetList.h in Sources */ = {isa = PBXBuildFile; fileRef = 508d8bc9a8e6cd9000000000 /* SDZgetList.h */; };
+		508d8cc4a8e6cd9300000000 /* SDZCouponData.h in Sources */ = {isa = PBXBuildFile; fileRef = 508d8bcaa8e6cd9000000000 /* SDZCouponData.h */; };
+		508d8cc5a8e6cd9300000000 /* SDZHotelBaseRequest.h in Sources */ = {isa = PBXBuildFile; fileRef = 508d8bcba8e6cd9000000000 /* SDZHotelBaseRequest.h */; };
+		508d8cc6a8e6cd9300000000 /* SDZEanWsError.h in Sources */ = {isa = PBXBuildFile; fileRef = 508d8bcca8e6cd9000000000 /* SDZEanWsError.h */; };
+		508d8cc7a8e6cd9300000000 /* SDZbaseRateInfo.h in Sources */ = {isa = PBXBuildFile; fileRef = 508d8bcda8e6cd9000000000 /* SDZbaseRateInfo.h */; };
+		508d8cc8a8e6cd9300000000 /* SDZAlternatePropertyListResponse.h in Sources */ = {isa = PBXBuildFile; fileRef = 508d8bcea8e6cd9000000000 /* SDZAlternatePropertyListResponse.h */; };
+		508d8cc9a8e6cd9300000000 /* SDZCustomerAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = 508d8bcfa8e6cd9000000000 /* SDZCustomerAddress.m */; };
+		508d8ccaa8e6cd9300000000 /* SDZErrorAttributes.h in Sources */ = {isa = PBXBuildFile; fileRef = 508d8bd0a8e6cd9000000000 /* SDZErrorAttributes.h */; };
+		508d8ccba8e6cd9300000000 /* SDZValueAdds.m in Sources */ = {isa = PBXBuildFile; fileRef = 508d8bd1a8e6cd9000000000 /* SDZValueAdds.m */; };
+		508d8ccca8e6cd9300000000 /* SDZCouponData.m in Sources */ = {isa = PBXBuildFile; fileRef = 508d8bd2a8e6cd9000000000 /* SDZCouponData.m */; };
+		508d8ccda8e6cd9300000000 /* SDZHotelRoomResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 508d8bd3a8e6cd9000000000 /* SDZHotelRoomResponse.m */; };
+		508d8ccea8e6cd9300000000 /* SDZRoomGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 508d8bd4a8e6cd9000000000 /* SDZRoomGroup.m */; };
+		508d8ccfa8e6cd9300000000 /* SDZSurcharge.m in Sources */ = {isa = PBXBuildFile; fileRef = 508d8bd5a8e6cd9000000000 /* SDZSurcharge.m */; };
+		508d8cd0a8e6cd9300000000 /* SDZCustomer.h in Sources */ = {isa = PBXBuildFile; fileRef = 508d8bd6a8e6cd9100000000 /* SDZCustomer.h */; };
+		508d8cd1a8e6cd9300000000 /* SDZItinerary.h in Sources */ = {isa = PBXBuildFile; fileRef = 508d8bd7a8e6cd9100000000 /* SDZItinerary.h */; };
+		508d8cd2a8e6cd9300000000 /* SDZgetGeoLocationResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 508d8bd8a8e6cd9100000000 /* SDZgetGeoLocationResponse.m */; };
+		508d8cd3a8e6cd9300000000 /* SDZHotelItineraryResponse.h in Sources */ = {isa = PBXBuildFile; fileRef = 508d8bd9a8e6cd9100000000 /* SDZHotelItineraryResponse.h */; };
+		508d8cd4a8e6cd9300000000 /* SDZHotelRateInfo.h in Sources */ = {isa = PBXBuildFile; fileRef = 508d8bdaa8e6cd9100000000 /* SDZHotelRateInfo.h */; };
+		508d8cd5a8e6cd9300000000 /* SDZgetGeoLocationResponse.h in Sources */ = {isa = PBXBuildFile; fileRef = 508d8bdba8e6cd9100000000 /* SDZgetGeoLocationResponse.h */; };
+		508d8cd6a8e6cd9300000000 /* SDZHotelBaseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 508d8bdca8e6cd9100000000 /* SDZHotelBaseRequest.m */; };
+		508d8cd7a8e6cd9300000000 /* SDZmapEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 508d8bdda8e6cd9100000000 /* SDZmapEntry.m */; };
+		508d8cd8a8e6cd9300000000 /* SDZRoomImages.m in Sources */ = {isa = PBXBuildFile; fileRef = 508d8bdea8e6cd9100000000 /* SDZRoomImages.m */; };
+		508d8cd9a8e6cd9300000000 /* SDZDiscount.h in Sources */ = {isa = PBXBuildFile; fileRef = 508d8bdfa8e6cd9100000000 /* SDZDiscount.h */; };
+		508d8cdaa8e6cd9300000000 /* SDZEanWsError.m in Sources */ = {isa = PBXBuildFile; fileRef = 508d8be0a8e6cd9100000000 /* SDZEanWsError.m */; };
+		508d8cdba8e6cd9300000000 /* SDZgetCancellationResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 508d8be1a8e6cd9100000000 /* SDZgetCancellationResponse.m */; };
+		508d8cdca8e6cd9300000000 /* SDZNightlyRates.m in Sources */ = {isa = PBXBuildFile; fileRef = 508d8be2a8e6cd9100000000 /* SDZNightlyRates.m */; };
+		508d8cdda8e6cd9300000000 /* SDZv3.HotelPaymentRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 508d8be3a8e6cd9100000000 /* SDZv3.HotelPaymentRequest.m */; };
+		508d8cdea8e6cd9300000000 /* SDZHotelRoomImageResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 508d8be4a8e6cd9100000000 /* SDZHotelRoomImageResponse.m */; };
+		508d8cdfa8e6cd9300000000 /* SDZgetAvailability.h in Sources */ = {isa = PBXBuildFile; fileRef = 508d8be5a8e6cd9100000000 /* SDZgetAvailability.h */; };
+		508d8ce0a8e6cd9300000000 /* SDZRateInfos.h in Sources */ = {isa = PBXBuildFile; fileRef = 508d8be6a8e6cd9100000000 /* SDZRateInfos.h */; };
+		508d8ce1a8e6cd9300000000 /* SDZvalueAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 508d8be7a8e6cd9100000000 /* SDZvalueAdd.m */; };
+		508d8ce2a8e6cd9300000000 /* SDZCancelPolicyInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 508d8be8a8e6cd9100000000 /* SDZCancelPolicyInfo.m */; };
+		508d8ce3a8e6cd9300000000 /* SDZCancelPolicyInfoList.m in Sources */ = {isa = PBXBuildFile; fileRef = 508d8be9a8e6cd9100000000 /* SDZCancelPolicyInfoList.m */; };
+		508d8ce4a8e6cd9300000000 /* SDZaddressInfo.h in Sources */ = {isa = PBXBuildFile; fileRef = 508d8beaa8e6cd9100000000 /* SDZaddressInfo.h */; };
+		508d8ce5a8e6cd9300000000 /* SDZbaseRateInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 508d8beba8e6cd9100000000 /* SDZbaseRateInfo.m */; };
+		508d8ce6a8e6cd9300000000 /* SDZgetAlternatePropertiesResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 508d8beca8e6cd9100000000 /* SDZgetAlternatePropertiesResponse.m */; };
+		508d8ce7a8e6cd9300000000 /* SDZgetReservation.m in Sources */ = {isa = PBXBuildFile; fileRef = 508d8beda8e6cd9100000000 /* SDZgetReservation.m */; };
+		508d8ce8a8e6cd9300000000 /* SDZPropertyAmenities.h in Sources */ = {isa = PBXBuildFile; fileRef = 508d8beea8e6cd9100000000 /* SDZPropertyAmenities.h */; };
+
+		1067D05812B7BA3D005BBFFD /* NSMutableArray+Soap.m in Sources */ = {isa = PBXBuildFile; fileRef = 1067D05712B7BA3D005BBFFD /* NSMutableArray+Soap.m */; };
+		10C72023110C0A71008E8718 /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 10C71F93110C0A71008E8718 /* NSData+Base64.m */; };
+		10C72024110C0A71008E8718 /* Soap.m in Sources */ = {isa = PBXBuildFile; fileRef = 10C71F95110C0A71008E8718 /* Soap.m */; };
+		10C72025110C0A71008E8718 /* SoapArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 10C71F97110C0A71008E8718 /* SoapArray.m */; };
+		10C72027110C0A71008E8718 /* SoapFault.m in Sources */ = {isa = PBXBuildFile; fileRef = 10C71F9C110C0A71008E8718 /* SoapFault.m */; };
+		10C72028110C0A71008E8718 /* SoapHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 10C71F9E110C0A71008E8718 /* SoapHandler.m */; };
+		10C72029110C0A71008E8718 /* SoapNil.m in Sources */ = {isa = PBXBuildFile; fileRef = 10C71FA0110C0A71008E8718 /* SoapNil.m */; };
+		107DACA91217305B00F18A8A /* SoapLiteral.m in Sources */ = {isa = PBXBuildFile; fileRef = 107DACA71217305B00F18A8A /* SoapLiteral.m */; };
+		10C7202A110C0A71008E8718 /* SoapObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 10C71FA2110C0A71008E8718 /* SoapObject.m */; };
+		10C7202B110C0A71008E8718 /* SoapParameter.m in Sources */ = {isa = PBXBuildFile; fileRef = 10C71FA4110C0A71008E8718 /* SoapParameter.m */; };
+		10C7202C110C0A71008E8718 /* SoapReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 10C71FA6110C0A71008E8718 /* SoapReachability.m */; };
+		10C7202D110C0A71008E8718 /* SoapRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 10C71FA8110C0A71008E8718 /* SoapRequest.m */; };
+		10C7202E110C0A71008E8718 /* SoapService.m in Sources */ = {isa = PBXBuildFile; fileRef = 10C71FAA110C0A71008E8718 /* SoapService.m */; };
+		10C7202F110C0A71008E8718 /* CXMLDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 10C71FAD110C0A71008E8718 /* CXMLDocument.m */; };
+		10C72030110C0A71008E8718 /* CXMLDocument_PrivateExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 10C71FAF110C0A71008E8718 /* CXMLDocument_PrivateExtensions.m */; };
+		10C72031110C0A71008E8718 /* CXMLElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 10C71FB1110C0A71008E8718 /* CXMLElement.m */; };
+		10C72032110C0A71008E8718 /* CXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 10C71FB3110C0A71008E8718 /* CXMLNode.m */; };
+		10C72033110C0A71008E8718 /* CXMLNode_PrivateExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 10C71FB5110C0A71008E8718 /* CXMLNode_PrivateExtensions.m */; };
+		10C72034110C0A71008E8718 /* CXMLNode_XPathExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 10C71FB7110C0A71008E8718 /* CXMLNode_XPathExtensions.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		10C71DCC110B5D9F008E8718 /* SudzCExamplesAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SudzCExamplesAppDelegate.m; sourceTree = "<group>"; };
+		10C71DCD110B5D9F008E8718 /* SudzCExamplesAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SudzCExamplesAppDelegate.h; sourceTree = "<group>"; };
+		10C71E6D110B5EC0008E8718 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		508d8af5a8e6cd8d00000000 /* SDZHotelServicesImplServiceExample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SDZHotelServicesImplServiceExample.m"; sourceTree = "<group>"; };
+		508d8af6a8e6cd8d00000000 /* SDZHotelServicesImplServiceExample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SDZHotelServicesImplServiceExample.h"; sourceTree = "<group>"; };
+		508d8af7a8e6cd8e00000000 /* SDZItineraryQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SDZItineraryQuery.h"; sourceTree = "<group>"; };
+		508d8af8a8e6cd8e00000000 /* SDZgetListResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SDZgetListResponse.m"; sourceTree = "<group>"; };
+		508d8af9a8e6cd8e00000000 /* SDZgetPingResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SDZgetPingResponse.m"; sourceTree = "<group>"; };
+		508d8afaa8e6cd8e00000000 /* SDZHotelInformationResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SDZHotelInformationResponse.h"; sourceTree = "<group>"; };
+		508d8afba8e6cd8e00000000 /* SDZHotelRoomReservationRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SDZHotelRoomReservationRequest.h"; sourceTree = "<group>"; };
+		508d8afca8e6cd8e00000000 /* SDZmapEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SDZmapEntry.h"; sourceTree = "<group>"; };
+		508d8afda8e6cd8e00000000 /* SDZSupplier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SDZSupplier.h"; sourceTree = "<group>"; };
+		508d8afea8e6cd8e00000000 /* SDZRateRulesFreeFlow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SDZRateRulesFreeFlow.h"; sourceTree = "<group>"; };
+		508d8affa8e6cd8e00000000 /* SDZgetAvailabilityResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SDZgetAvailabilityResponse.m"; sourceTree = "<group>"; };
+		508d8b00a8e6cd8e00000000 /* SDZRoom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SDZRoom.m"; sourceTree = "<group>"; };
+		508d8b01a8e6cd8e00000000 /* SDZbaseRateInfoSurcharges.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SDZbaseRateInfoSurcharges.m"; sourceTree = "<group>"; };
+		508d8b02a8e6cd8e00000000 /* SDZReservationGuest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SDZReservationGuest.h"; sourceTree = "<group>"; };
+		508d8b03a8e6cd8e00000000 /* SDZgetReservationResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SDZgetReservationResponse.h"; sourceTree = "<group>"; };
+		508d8b04a8e6cd8e00000000 /* SDZHotelListRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SDZHotelListRequest.m"; sourceTree = "<group>"; };
+		508d8b05a8e6cd8e00000000 /* SDZvalueAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SDZvalueAdd.h"; sourceTree = "<group>"; };
+		508d8b06a8e6cd8e00000000 /* SDZPaymentType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SDZPaymentType.h"; sourceTree = "<group>"; };
+		508d8b07a8e6cd8e00000000 /* SDZHotelRateRulesRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SDZHotelRateRulesRequest.m"; sourceTree = "<group>"; };
+		508d8b08a8e6cd8e00000000 /* SDZlistWithSizeAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SDZlistWithSizeAttribute.h"; sourceTree = "<group>"; };
+		508d8b09a8e6cd8e00000000 /* SDZRoomType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SDZRoomType.m"; sourceTree = "<group>"; };
+		508d8b0aa8e6cd8e00000000 /* SDZLowestRateInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SDZLowestRateInfo.h"; sourceTree = "<group>"; };
+		508d8b0ba8e6cd8e00000000 /* SDZRoomAmenities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SDZRoomAmenities.h"; sourceTree = "<group>"; };
+		508d8b0ca8e6cd8e00000000 /* SDZNightlyRates.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SDZNightlyRates.h"; sourceTree = "<group>"; };
+		508d8b0da8e6cd8e00000000 /* SDZgetPaymentInfoResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SDZgetPaymentInfoResponse.h"; sourceTree = "<group>"; };
+		508d8b0ea8e6cd8e00000000 /* SDZreservationInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SDZreservationInfo.m"; sourceTree = "<group>"; };
+		508d8b0fa8e6cd8e00000000 /* SDZRoomRateDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SDZRoomRateDetails.m"; sourceTree = "<group>"; };
+		508d8b10a8e6cd8e00000000 /* SDZgetItineraryResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SDZgetItineraryResponse.h"; sourceTree = "<group>"; };
+		508d8b11a8e6cd8e00000000 /* SDZHotelRoomImageResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SDZHotelRoomImageResponse.h"; sourceTree = "<group>"; };
+		508d8b12a8e6cd8e00000000 /* SDZRateChangeInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SDZRateChangeInfo.h"; sourceTree = "<group>"; };
+		508d8b13a8e6cd8e00000000 /* SDZHotelRoomResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SDZHotelRoomResponse.h"; sourceTree = "<group>"; };
+		508d8b14a8e6cd8e00000000 /* SDZAlternatePropertyListResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SDZAlternatePropertyListResponse.m"; sourceTree = "<group>"; };
+		508d8b15a8e6cd8e00000000 /* SDZRateInfos.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SDZRateInfos.m"; sourceTree = "<group>"; };
+		508d8b16a8e6cd8e00000000 /* SDZHotelInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SDZHotelInfo.m"; sourceTree = "<group>"; };
+		508d8b17a8e6cd8e00000000 /* SDZRoomImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SDZRoomImage.m"; sourceTree = "<group>"; };
+		508d8b18a8e6cd8e00000000 /* SDZBaseResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SDZBaseResponse.h"; sourceTree = "<group>"; };
+		508d8b19a8e6cd8e00000000 /* SDZgetRateRulesResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SDZgetRateRulesResponse.m"; sourceTree = "<group>"; };
+		508d8b1aa8e6cd8e00000000 /* SDZHotelListResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SDZHotelListResponse.m"; sourceTree = "<group>"; };
+		508d8b1ba8e6cd8e00000000 /* SDZSuppliers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SDZSuppliers.h"; sourceTree = "<group>"; };
+		508d8b1ca8e6cd8e00000000 /* SDZHotelRoomAvailabilityResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SDZHotelRoomAvailabilityResponse.m"; sourceTree = "<group>"; };
+		508d8b1da8e6cd8e00000000 /* SDZgetItinerary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SDZgetItinerary.m"; sourceTree = "<group>"; };
+		508d8b1ea8e6cd8e00000000 /* SDZlistWithSizeAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SDZlistWithSizeAttribute.m"; sourceTree = "<group>"; };
+		508d8b1fa8e6cd8e00000000 /* SDZAmenities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SDZAmenities.m"; sourceTree = "<group>"; };
+		508d8b20a8e6cd8e00000000 /* SDZHotelRoomReservationResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SDZHotelRoomReservationResponse.h"; sourceTree = "<group>"; };
+		508d8b21a8e6cd8e00000000 /* SDZgetItineraryResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SDZgetItineraryResponse.m"; sourceTree = "<group>"; };
+		508d8b22a8e6cd8e00000000 /* SDZbaseRateInfoSurcharges.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SDZbaseRateInfoSurcharges.h"; sourceTree = "<group>"; };
+		508d8b23a8e6cd8e00000000 /* SDZgetRoomImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SDZgetRoomImage.m"; sourceTree = "<group>"; };
+		508d8b24a8e6cd8e00000000 /* SDZHotelRateInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SDZHotelRateInfo.m"; sourceTree = "<group>"; };
+		508d8b25a8e6cd8e00000000 /* SDZBaseRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SDZBaseRequest.m"; sourceTree = "<group>"; };
+		508d8b26a8e6cd8e00000000 /* SDZHotelItineraryResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SDZHotelItineraryResponse.m"; sourceTree = "<group>"; };
+		508d8b27a8e6cd8e00000000 /* SDZHotelRoomImageRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SDZHotelRoomImageRequest.m"; sourceTree = "<group>"; };
+		508d8b28a8e6cd8e00000000 /* SDZHotelPaymentRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SDZHotelPaymentRequest.m"; sourceTree = "<group>"; };
+		508d8b29a8e6cd8e00000000 /* SDZHotelSummary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SDZHotelSummary.h"; sourceTree = "<group>"; };
+		508d8b2aa8e6cd8e00000000 /* SDZbaseRateInfoNightlyRatesPerRoom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SDZbaseRateInfoNightlyRatesPerRoom.h"; sourceTree = "<group>"; };
+		508d8b2ba8e6cd8e00000000 /* SDZPingRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SDZPingRequest.m"; sourceTree = "<group>"; };
+		508d8b2ca8e6cd8e00000000 /* SDZPingResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SDZPingResponse.h"; sourceTree = "<group>"; };
+		508d8b2da8e6cd8e00000000 /* SDZCachedSupplierResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SDZCachedSupplierResponse.h"; sourceTree = "<group>"; };
+		508d8b2ea8e6cd8e00000000 /* SDZRateChangeInfos.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SDZRateChangeInfos.m"; sourceTree = "<group>"; };
+		508d8b2fa8e6cd8e00000000 /* SDZDiscount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SDZDiscount.m"; sourceTree = "<group>"; };
+		508d8b30a8e6cd8e00000000 /* SDZItineraryQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SDZItineraryQuery.m"; sourceTree = "<group>"; };
+		508d8b31a8e6cd8e00000000 /* SDZgetReservation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SDZgetReservation.h"; sourceTree = "<group>"; };
+		508d8b32a8e6cd8e00000000 /* SDZaddressInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SDZaddressInfo.m"; sourceTree = "<group>"; };
+		508d8b33a8e6cd8e00000000 /* SDZRateRulesFreeFlows.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SDZRateRulesFreeFlows.h"; sourceTree = "<group>"; };
+		508d8b34a8e6cd8e00000000 /* SDZRateChangeInfos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SDZRateChangeInfos.h"; sourceTree = "<group>"; };
+		508d8b35a8e6cd8e00000000 /* SDZgetAvailability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SDZgetAvailability.m"; sourceTree = "<group>"; };
+		508d8b36a8e6cd8e00000000 /* SDZgetRateRules.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SDZgetRateRules.h"; sourceTree = "<group>"; };
+		508d8b37a8e6cd8e00000000 /* SDZCouponInformation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SDZCouponInformation.m"; sourceTree = "<group>"; };
+		508d8b38a8e6cd8e00000000 /* SDZRoomGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SDZRoomGroup.h"; sourceTree = "<group>"; };
+		508d8b39a8e6cd8e00000000 /* SDZHotelConfirmation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SDZHotelConfirmation.h"; sourceTree = "<group>"; };
+		508d8b3aa8e6cd8e00000000 /* SDZHotelPaymentResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SDZHotelPaymentResponse.m"; sourceTree = "<group>"; };
+		508d8b3ba8e6cd8e00000000 /* SDZv3.HotelPaymentRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SDZv3.HotelPaymentRequest.h"; sourceTree = "<group>"; };
+		508d8b3ca8e6cd8e00000000 /* SDZCouponInformationResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SDZCouponInformationResponse.h"; sourceTree = "<group>"; };
+		508d8b3da8e6cd8e00000000 /* SDZNightlyRate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SDZNightlyRate.m"; sourceTree = "<group>"; };
+		508d8b3ea8e6cd8e00000000 /* Soap+Prefix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Soap+Prefix.h"; sourceTree = "<group>"; };
+		508d8b3fa8e6cd8e00000000 /* SDZRoomRateDetailsList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SDZRoomRateDetailsList.m"; sourceTree = "<group>"; };
+		508d8b40a8e6cd8e00000000 /* SDZHotelRoomCancellationRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SDZHotelRoomCancellationRequest.m"; sourceTree = "<group>"; };
+		508d8b41a8e6cd8f00000000 /* SDZbedType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SDZbedType.m"; sourceTree = "<group>"; };
+		508d8b42a8e6cd8f00000000 /* SDZCachedSupplierResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SDZCachedSupplierResponse.m"; sourceTree = "<group>"; };
+		508d8b43a8e6cd8f00000000 /* SDZServerInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SDZServerInfo.m"; sourceTree = "<group>"; };
+		508d8b44a8e6cd8f00000000 /* SDZLocationInfoResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SDZLocationInfoResponse.h"; sourceTree = "<group>"; };
+		508d8b45a8e6cd8f00000000 /* SDZLocationInfoResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SDZLocationInfoResponse.m"; sourceTree = "<group>"; };
+		508d8b46a8e6cd8f00000000 /* SDZbaseRateInfoDiscounts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SDZbaseRateInfoDiscounts.m"; sourceTree = "<group>"; };
+		508d8b47a8e6cd8f00000000 /* SDZgetAvailabilityResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SDZgetAvailabilityResponse.h"; sourceTree = "<group>"; };
+		508d8b48a8e6cd8f00000000 /* SDZConfirmationExtra.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SDZConfirmationExtra.h"; sourceTree = "<group>"; };
+		508d8b49a8e6cd8f00000000 /* SDZBedTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SDZBedTypes.h"; sourceTree = "<group>"; };
+		508d8b4aa8e6cd8f00000000 /* SDZAmenities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SDZAmenities.h"; sourceTree = "<group>"; };
+		508d8b4ba8e6cd8f00000000 /* SDZAlternateHotelResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SDZAlternateHotelResponse.m"; sourceTree = "<group>"; };
+		508d8b4ca8e6cd8f00000000 /* SDZLocationInfos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SDZLocationInfos.h"; sourceTree = "<group>"; };
+		508d8b4da8e6cd8f00000000 /* SDZHotelImages.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SDZHotelImages.h"; sourceTree = "<group>"; };
+		508d8b4ea8e6cd8f00000000 /* SDZConfirmationExtras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SDZConfirmationExtras.m"; sourceTree = "<group>"; };
+		508d8b4fa8e6cd8f00000000 /* SDZCancelPolicyInfoList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SDZCancelPolicyInfoList.h"; sourceTree = "<group>"; };
+		508d8b50a8e6cd8f00000000 /* SDZgetList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SDZgetList.m"; sourceTree = "<group>"; };
+		508d8b51a8e6cd8f00000000 /* SDZErrorAttributes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SDZErrorAttributes.m"; sourceTree = "<group>"; };
+		508d8b52a8e6cd8f00000000 /* SDZHotelServicesImplService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SDZHotelServicesImplService.h"; sourceTree = "<group>"; };
+		508d8b53a8e6cd8f00000000 /* SDZServerInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SDZServerInfo.h"; sourceTree = "<group>"; };
+		508d8b54a8e6cd8f00000000 /* SDZRoom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SDZRoom.h"; sourceTree = "<group>"; };
+		508d8b55a8e6cd8f00000000 /* SDZRateChangeInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SDZRateChangeInfo.m"; sourceTree = "<group>"; };
+		508d8b56a8e6cd8f00000000 /* SDZSurcharge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SDZSurcharge.h"; sourceTree = "<group>"; };
+		508d8b57a8e6cd8f00000000 /* SDZgetInformation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SDZgetInformation.h"; sourceTree = "<group>"; };
+		508d8b58a8e6cd8f00000000 /* SDZgetAlternatePropertiesResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SDZgetAlternatePropertiesResponse.h"; sourceTree = "<group>"; };
+		508d8b59a8e6cd8f00000000 /* SDZHotelPaymentResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SDZHotelPaymentResponse.h"; sourceTree = "<group>"; };
+		508d8b5aa8e6cd8f00000000 /* SDZHotelRoomAvailabilityRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SDZHotelRoomAvailabilityRequest.m"; sourceTree = "<group>"; };
+		508d8b5ba8e6cd8f00000000 /* SDZHotelSummary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SDZHotelSummary.m"; sourceTree = "<group>"; };
+		508d8b5ca8e6cd8f00000000 /* SDZHotelInformationRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SDZHotelInformationRequest.h"; sourceTree = "<group>"; };
+		508d8b5da8e6cd8f00000000 /* SDZHotelItineraryRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SDZHotelItineraryRequest.m"; sourceTree = "<group>"; };
+		508d8b5ea8e6cd8f00000000 /* SDZgetPaymentInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SDZgetPaymentInfo.m"; sourceTree = "<group>"; };
+		508d8b5fa8e6cd8f00000000 /* SDZHotelItineraryRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SDZHotelItineraryRequest.h"; sourceTree = "<group>"; };
+		508d8b60a8e6cd8f00000000 /* SDZgetGeoLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SDZgetGeoLocation.m"; sourceTree = "<group>"; };
+		508d8b61a8e6cd8f00000000 /* SDZHotelConfirmation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SDZHotelConfirmation.m"; sourceTree = "<group>"; };
+		508d8b62a8e6cd8f00000000 /* SDZServices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SDZServices.h"; sourceTree = "<group>"; };
+		508d8b63a8e6cd8f00000000 /* SDZHotelList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SDZHotelList.h"; sourceTree = "<group>"; };
+		508d8b64a8e6cd8f00000000 /* SDZCouponInformation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SDZCouponInformation.h"; sourceTree = "<group>"; };
+		508d8b65a8e6cd8f00000000 /* SDZHotelImages.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SDZHotelImages.m"; sourceTree = "<group>"; };
+		508d8b66a8e6cd8f00000000 /* SDZCouponErrors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SDZCouponErrors.m"; sourceTree = "<group>"; };
+		508d8b67a8e6cd8f00000000 /* SDZHotelRoomCancellationRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SDZHotelRoomCancellationRequest.h"; sourceTree = "<group>"; };
+		508d8b68a8e6cd8f00000000 /* SDZgetRoomImageResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SDZgetRoomImageResponse.m"; sourceTree = "<group>"; };
+		508d8b69a8e6cd8f00000000 /* SDZRateRulesFreeFlows.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SDZRateRulesFreeFlows.m"; sourceTree = "<group>"; };
+		508d8b6aa8e6cd8f00000000 /* SDZAlternatePropertyListRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SDZAlternatePropertyListRequest.m"; sourceTree = "<group>"; };
+		508d8b6ba8e6cd8f00000000 /* SDZValueAdds.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SDZValueAdds.h"; sourceTree = "<group>"; };
+		508d8b6ca8e6cd8f00000000 /* SDZRoomAmenities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SDZRoomAmenities.m"; sourceTree = "<group>"; };
+		508d8b6da8e6cd8f00000000 /* SDZHotelRoomCancellationResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SDZHotelRoomCancellationResponse.h"; sourceTree = "<group>"; };
+		508d8b6ea8e6cd8f00000000 /* SDZHotelRoomImageRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SDZHotelRoomImageRequest.h"; sourceTree = "<group>"; };
+		508d8b6fa8e6cd8f00000000 /* SDZHotelPaymentRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SDZHotelPaymentRequest.h"; sourceTree = "<group>"; };
+		508d8b70a8e6cd8f00000000 /* SDZHotelListRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SDZHotelListRequest.h"; sourceTree = "<group>"; };
+		508d8b71a8e6cd8f00000000 /* SDZHotelInformationResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SDZHotelInformationResponse.m"; sourceTree = "<group>"; };
+		508d8b72a8e6cd8f00000000 /* SDZHotel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SDZHotel.h"; sourceTree = "<group>"; };
+		508d8b73a8e6cd8f00000000 /* SDZbaseRateInfoDiscounts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SDZbaseRateInfoDiscounts.h"; sourceTree = "<group>"; };
+		508d8b74a8e6cd8f00000000 /* SDZgetInformation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SDZgetInformation.m"; sourceTree = "<group>"; };
+		508d8b75a8e6cd8f00000000 /* SDZHotelDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SDZHotelDetails.m"; sourceTree = "<group>"; };
+		508d8b76a8e6cd8f00000000 /* SDZLocationInfoRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SDZLocationInfoRequest.m"; sourceTree = "<group>"; };
+		508d8b77a8e6cd8f00000000 /* SDZLocationInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SDZLocationInfo.h"; sourceTree = "<group>"; };
+		508d8b78a8e6cd8f00000000 /* SDZBaseRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SDZBaseRequest.h"; sourceTree = "<group>"; };
+		508d8b79a8e6cd8f00000000 /* SDZgetAlternateProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SDZgetAlternateProperties.m"; sourceTree = "<group>"; };
+		508d8b7aa8e6cd8f00000000 /* SDZPingRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SDZPingRequest.h"; sourceTree = "<group>"; };
+		508d8b7ba8e6cd8f00000000 /* SDZHotelServicesImplService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SDZHotelServicesImplService.m"; sourceTree = "<group>"; };
+		508d8b7ca8e6cd8f00000000 /* SDZgetInformationResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SDZgetInformationResponse.m"; sourceTree = "<group>"; };
+		508d8b7da8e6cd8f00000000 /* SDZgetAlternateProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SDZgetAlternateProperties.h"; sourceTree = "<group>"; };
+		508d8b7ea8e6cd8f00000000 /* SDZLowestRateInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SDZLowestRateInfo.m"; sourceTree = "<group>"; };
+		508d8b7fa8e6cd8f00000000 /* SDZgetListResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SDZgetListResponse.h"; sourceTree = "<group>"; };
+		508d8b80a8e6cd8f00000000 /* SDZRoomTypes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SDZRoomTypes.m"; sourceTree = "<group>"; };
+		508d8b81a8e6cd8f00000000 /* SDZBaseResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SDZBaseResponse.m"; sourceTree = "<group>"; };
+		508d8b82a8e6cd8f00000000 /* SDZCustomerAddress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SDZCustomerAddress.h"; sourceTree = "<group>"; };
+		508d8b83a8e6cd8f00000000 /* SDZItinerary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SDZItinerary.m"; sourceTree = "<group>"; };
+		508d8b84a8e6cd8f00000000 /* SDZHotelRoomReservationResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SDZHotelRoomReservationResponse.m"; sourceTree = "<group>"; };
+		508d8b85a8e6cd8f00000000 /* SDZLocationInfos.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SDZLocationInfos.m"; sourceTree = "<group>"; };
+		508d8b86a8e6cd8f00000000 /* SDZgetRateRulesResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SDZgetRateRulesResponse.h"; sourceTree = "<group>"; };
+		508d8b87a8e6cd8f00000000 /* SDZError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SDZError.m"; sourceTree = "<group>"; };
+		508d8b88a8e6cd8f00000000 /* SDZHotelRoomAvailabilityResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SDZHotelRoomAvailabilityResponse.h"; sourceTree = "<group>"; };
+		508d8b89a8e6cd8f00000000 /* SDZgetCancellationResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SDZgetCancellationResponse.h"; sourceTree = "<group>"; };
+		508d8b8aa8e6cd8f00000000 /* Soap+Prefix.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Soap+Prefix.m"; sourceTree = "<group>"; };
+		508d8b8ba8e6cd9000000000 /* SDZRateRulesFreeFlow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SDZRateRulesFreeFlow.m"; sourceTree = "<group>"; };
+		508d8b8ca8e6cd9000000000 /* SDZAlternatePropertyListRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SDZAlternatePropertyListRequest.h"; sourceTree = "<group>"; };
+		508d8b8da8e6cd9000000000 /* SDZCouponErrors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SDZCouponErrors.h"; sourceTree = "<group>"; };
+		508d8b8ea8e6cd9000000000 /* SDZRoomType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SDZRoomType.h"; sourceTree = "<group>"; };
+		508d8b8fa8e6cd9000000000 /* SDZHotelInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SDZHotelInfo.h"; sourceTree = "<group>"; };
+		508d8b90a8e6cd9000000000 /* SDZHotelListResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SDZHotelListResponse.h"; sourceTree = "<group>"; };
+		508d8b91a8e6cd9000000000 /* SDZHotelRoomAvailabilityRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SDZHotelRoomAvailabilityRequest.h"; sourceTree = "<group>"; };
+		508d8b92a8e6cd9000000000 /* SDZLocationInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SDZLocationInfo.m"; sourceTree = "<group>"; };
+		508d8b93a8e6cd9000000000 /* SDZHotelImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SDZHotelImage.h"; sourceTree = "<group>"; };
+		508d8b94a8e6cd9000000000 /* SDZgetPing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SDZgetPing.h"; sourceTree = "<group>"; };
+		508d8b95a8e6cd9000000000 /* SDZHotelRoomCancellationResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SDZHotelRoomCancellationResponse.m"; sourceTree = "<group>"; };
+		508d8b96a8e6cd9000000000 /* SDZgetInformationResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SDZgetInformationResponse.h"; sourceTree = "<group>"; };
+		508d8b97a8e6cd9000000000 /* SDZPropertyAmenities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SDZPropertyAmenities.m"; sourceTree = "<group>"; };
+		508d8b98a8e6cd9000000000 /* SDZRoomRateDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SDZRoomRateDetails.h"; sourceTree = "<group>"; };
+		508d8b99a8e6cd9000000000 /* SDZHotel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SDZHotel.m"; sourceTree = "<group>"; };
+		508d8b9aa8e6cd9000000000 /* SDZgetReservationResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SDZgetReservationResponse.m"; sourceTree = "<group>"; };
+		508d8b9ba8e6cd9000000000 /* SDZRoomAmenity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SDZRoomAmenity.m"; sourceTree = "<group>"; };
+		508d8b9ca8e6cd9000000000 /* SDZRoomImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SDZRoomImage.h"; sourceTree = "<group>"; };
+		508d8b9da8e6cd9000000000 /* SDZHotelRoomReservationRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SDZHotelRoomReservationRequest.m"; sourceTree = "<group>"; };
+		508d8b9ea8e6cd9000000000 /* SDZgetGeoLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SDZgetGeoLocation.h"; sourceTree = "<group>"; };
+		508d8b9fa8e6cd9000000000 /* SDZSuppliers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SDZSuppliers.m"; sourceTree = "<group>"; };
+		508d8ba0a8e6cd9000000000 /* SDZNightlyRate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SDZNightlyRate.h"; sourceTree = "<group>"; };
+		508d8ba1a8e6cd9000000000 /* SDZgetItinerary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SDZgetItinerary.h"; sourceTree = "<group>"; };
+		508d8ba2a8e6cd9000000000 /* SDZRoomTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SDZRoomTypes.h"; sourceTree = "<group>"; };
+		508d8ba3a8e6cd9000000000 /* SDZCustomer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SDZCustomer.m"; sourceTree = "<group>"; };
+		508d8ba4a8e6cd9000000000 /* SDZHotelDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SDZHotelDetails.h"; sourceTree = "<group>"; };
+		508d8ba5a8e6cd9000000000 /* SDZgetPing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SDZgetPing.m"; sourceTree = "<group>"; };
+		508d8ba6a8e6cd9000000000 /* SDZgetRoomImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SDZgetRoomImage.h"; sourceTree = "<group>"; };
+		508d8ba7a8e6cd9000000000 /* SDZHotelRateRulesRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SDZHotelRateRulesRequest.h"; sourceTree = "<group>"; };
+		508d8ba8a8e6cd9000000000 /* SDZbedType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SDZbedType.h"; sourceTree = "<group>"; };
+		508d8ba9a8e6cd9000000000 /* SDZbaseRateInfoNightlyRatesPerRoom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SDZbaseRateInfoNightlyRatesPerRoom.m"; sourceTree = "<group>"; };
+		508d8baaa8e6cd9000000000 /* SDZgetPaymentInfoResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SDZgetPaymentInfoResponse.m"; sourceTree = "<group>"; };
+		508d8baba8e6cd9000000000 /* SDZPaymentType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SDZPaymentType.m"; sourceTree = "<group>"; };
+		508d8baca8e6cd9000000000 /* SDZgetPaymentInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SDZgetPaymentInfo.h"; sourceTree = "<group>"; };
+		508d8bada8e6cd9000000000 /* SDZCouponInformationResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SDZCouponInformationResponse.m"; sourceTree = "<group>"; };
+		508d8baea8e6cd9000000000 /* SDZAlternateHotelResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SDZAlternateHotelResponse.h"; sourceTree = "<group>"; };
+		508d8bafa8e6cd9000000000 /* SDZgetRoomImageResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SDZgetRoomImageResponse.h"; sourceTree = "<group>"; };
+		508d8bb0a8e6cd9000000000 /* SDZSupplier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SDZSupplier.m"; sourceTree = "<group>"; };
+		508d8bb1a8e6cd9000000000 /* SDZServices.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SDZServices.m"; sourceTree = "<group>"; };
+		508d8bb2a8e6cd9000000000 /* SDZRoomImages.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SDZRoomImages.h"; sourceTree = "<group>"; };
+		508d8bb3a8e6cd9000000000 /* SDZPropertyAmenity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SDZPropertyAmenity.h"; sourceTree = "<group>"; };
+		508d8bb4a8e6cd9000000000 /* SDZCancelPolicyInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SDZCancelPolicyInfo.h"; sourceTree = "<group>"; };
+		508d8bb5a8e6cd9000000000 /* SDZgetPingResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SDZgetPingResponse.h"; sourceTree = "<group>"; };
+		508d8bb6a8e6cd9000000000 /* SDZError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SDZError.h"; sourceTree = "<group>"; };
+		508d8bb7a8e6cd9000000000 /* SDZConfirmationExtra.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SDZConfirmationExtra.m"; sourceTree = "<group>"; };
+		508d8bb8a8e6cd9000000000 /* SDZHotelInformationRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SDZHotelInformationRequest.m"; sourceTree = "<group>"; };
+		508d8bb9a8e6cd9000000000 /* SDZgetCancellation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SDZgetCancellation.m"; sourceTree = "<group>"; };
+		508d8bbaa8e6cd9000000000 /* SDZPropertyAmenity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SDZPropertyAmenity.m"; sourceTree = "<group>"; };
+		508d8bbba8e6cd9000000000 /* SDZHotelRateRulesResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SDZHotelRateRulesResponse.m"; sourceTree = "<group>"; };
+		508d8bbca8e6cd9000000000 /* SDZHotelRateRulesResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SDZHotelRateRulesResponse.h"; sourceTree = "<group>"; };
+		508d8bbda8e6cd9000000000 /* SDZgetCancellation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SDZgetCancellation.h"; sourceTree = "<group>"; };
+		508d8bbea8e6cd9000000000 /* SDZReservationGuest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SDZReservationGuest.m"; sourceTree = "<group>"; };
+		508d8bbfa8e6cd9000000000 /* SDZBedTypes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SDZBedTypes.m"; sourceTree = "<group>"; };
+		508d8bc0a8e6cd9000000000 /* SDZHotelList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SDZHotelList.m"; sourceTree = "<group>"; };
+		508d8bc1a8e6cd9000000000 /* SDZHotelImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SDZHotelImage.m"; sourceTree = "<group>"; };
+		508d8bc2a8e6cd9000000000 /* SDZreservationInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SDZreservationInfo.h"; sourceTree = "<group>"; };
+		508d8bc3a8e6cd9000000000 /* SDZLocationInfoRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SDZLocationInfoRequest.h"; sourceTree = "<group>"; };
+		508d8bc4a8e6cd9000000000 /* SDZPingResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SDZPingResponse.m"; sourceTree = "<group>"; };
+		508d8bc5a8e6cd9000000000 /* SDZConfirmationExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SDZConfirmationExtras.h"; sourceTree = "<group>"; };
+		508d8bc6a8e6cd9000000000 /* SDZRoomRateDetailsList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SDZRoomRateDetailsList.h"; sourceTree = "<group>"; };
+		508d8bc7a8e6cd9000000000 /* SDZgetRateRules.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SDZgetRateRules.m"; sourceTree = "<group>"; };
+		508d8bc8a8e6cd9000000000 /* SDZRoomAmenity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SDZRoomAmenity.h"; sourceTree = "<group>"; };
+		508d8bc9a8e6cd9000000000 /* SDZgetList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SDZgetList.h"; sourceTree = "<group>"; };
+		508d8bcaa8e6cd9000000000 /* SDZCouponData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SDZCouponData.h"; sourceTree = "<group>"; };
+		508d8bcba8e6cd9000000000 /* SDZHotelBaseRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SDZHotelBaseRequest.h"; sourceTree = "<group>"; };
+		508d8bcca8e6cd9000000000 /* SDZEanWsError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SDZEanWsError.h"; sourceTree = "<group>"; };
+		508d8bcda8e6cd9000000000 /* SDZbaseRateInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SDZbaseRateInfo.h"; sourceTree = "<group>"; };
+		508d8bcea8e6cd9000000000 /* SDZAlternatePropertyListResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SDZAlternatePropertyListResponse.h"; sourceTree = "<group>"; };
+		508d8bcfa8e6cd9000000000 /* SDZCustomerAddress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SDZCustomerAddress.m"; sourceTree = "<group>"; };
+		508d8bd0a8e6cd9000000000 /* SDZErrorAttributes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SDZErrorAttributes.h"; sourceTree = "<group>"; };
+		508d8bd1a8e6cd9000000000 /* SDZValueAdds.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SDZValueAdds.m"; sourceTree = "<group>"; };
+		508d8bd2a8e6cd9000000000 /* SDZCouponData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SDZCouponData.m"; sourceTree = "<group>"; };
+		508d8bd3a8e6cd9000000000 /* SDZHotelRoomResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SDZHotelRoomResponse.m"; sourceTree = "<group>"; };
+		508d8bd4a8e6cd9000000000 /* SDZRoomGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SDZRoomGroup.m"; sourceTree = "<group>"; };
+		508d8bd5a8e6cd9000000000 /* SDZSurcharge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SDZSurcharge.m"; sourceTree = "<group>"; };
+		508d8bd6a8e6cd9100000000 /* SDZCustomer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SDZCustomer.h"; sourceTree = "<group>"; };
+		508d8bd7a8e6cd9100000000 /* SDZItinerary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SDZItinerary.h"; sourceTree = "<group>"; };
+		508d8bd8a8e6cd9100000000 /* SDZgetGeoLocationResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SDZgetGeoLocationResponse.m"; sourceTree = "<group>"; };
+		508d8bd9a8e6cd9100000000 /* SDZHotelItineraryResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SDZHotelItineraryResponse.h"; sourceTree = "<group>"; };
+		508d8bdaa8e6cd9100000000 /* SDZHotelRateInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SDZHotelRateInfo.h"; sourceTree = "<group>"; };
+		508d8bdba8e6cd9100000000 /* SDZgetGeoLocationResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SDZgetGeoLocationResponse.h"; sourceTree = "<group>"; };
+		508d8bdca8e6cd9100000000 /* SDZHotelBaseRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SDZHotelBaseRequest.m"; sourceTree = "<group>"; };
+		508d8bdda8e6cd9100000000 /* SDZmapEntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SDZmapEntry.m"; sourceTree = "<group>"; };
+		508d8bdea8e6cd9100000000 /* SDZRoomImages.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SDZRoomImages.m"; sourceTree = "<group>"; };
+		508d8bdfa8e6cd9100000000 /* SDZDiscount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SDZDiscount.h"; sourceTree = "<group>"; };
+		508d8be0a8e6cd9100000000 /* SDZEanWsError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SDZEanWsError.m"; sourceTree = "<group>"; };
+		508d8be1a8e6cd9100000000 /* SDZgetCancellationResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SDZgetCancellationResponse.m"; sourceTree = "<group>"; };
+		508d8be2a8e6cd9100000000 /* SDZNightlyRates.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SDZNightlyRates.m"; sourceTree = "<group>"; };
+		508d8be3a8e6cd9100000000 /* SDZv3.HotelPaymentRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SDZv3.HotelPaymentRequest.m"; sourceTree = "<group>"; };
+		508d8be4a8e6cd9100000000 /* SDZHotelRoomImageResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SDZHotelRoomImageResponse.m"; sourceTree = "<group>"; };
+		508d8be5a8e6cd9100000000 /* SDZgetAvailability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SDZgetAvailability.h"; sourceTree = "<group>"; };
+		508d8be6a8e6cd9100000000 /* SDZRateInfos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SDZRateInfos.h"; sourceTree = "<group>"; };
+		508d8be7a8e6cd9100000000 /* SDZvalueAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SDZvalueAdd.m"; sourceTree = "<group>"; };
+		508d8be8a8e6cd9100000000 /* SDZCancelPolicyInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SDZCancelPolicyInfo.m"; sourceTree = "<group>"; };
+		508d8be9a8e6cd9100000000 /* SDZCancelPolicyInfoList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SDZCancelPolicyInfoList.m"; sourceTree = "<group>"; };
+		508d8beaa8e6cd9100000000 /* SDZaddressInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SDZaddressInfo.h"; sourceTree = "<group>"; };
+		508d8beba8e6cd9100000000 /* SDZbaseRateInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SDZbaseRateInfo.m"; sourceTree = "<group>"; };
+		508d8beca8e6cd9100000000 /* SDZgetAlternatePropertiesResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SDZgetAlternatePropertiesResponse.m"; sourceTree = "<group>"; };
+		508d8beda8e6cd9100000000 /* SDZgetReservation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SDZgetReservation.m"; sourceTree = "<group>"; };
+		508d8beea8e6cd9100000000 /* SDZPropertyAmenities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SDZPropertyAmenities.h"; sourceTree = "<group>"; };
+
+		1067D05612B7BA3D005BBFFD /* NSMutableArray+Soap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+Soap.h"; sourceTree = "<group>"; };
+		1067D05712B7BA3D005BBFFD /* NSMutableArray+Soap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+Soap.m"; sourceTree = "<group>"; };
+		10C71F92110C0A71008E8718 /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
+		10C71F93110C0A71008E8718 /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
+		10C71F94110C0A71008E8718 /* Soap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Soap.h; sourceTree = "<group>"; };
+		10C71F95110C0A71008E8718 /* Soap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Soap.m; sourceTree = "<group>"; };
+		10C71F96110C0A71008E8718 /* SoapArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoapArray.h; sourceTree = "<group>"; };
+		10C71F97110C0A71008E8718 /* SoapArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoapArray.m; sourceTree = "<group>"; };
+		10C71F98110C0A71008E8718 /* SoapDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoapDelegate.h; sourceTree = "<group>"; };
+		10C71F9B110C0A71008E8718 /* SoapFault.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoapFault.h; sourceTree = "<group>"; };
+		10C71F9C110C0A71008E8718 /* SoapFault.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoapFault.m; sourceTree = "<group>"; };
+		10C71F9D110C0A71008E8718 /* SoapHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoapHandler.h; sourceTree = "<group>"; };
+		10C71F9E110C0A71008E8718 /* SoapHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoapHandler.m; sourceTree = "<group>"; };
+		107DACA71217305B00F18A8A /* SoapLiteral.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoapLiteral.m; sourceTree = "<group>"; };
+		107DACA81217305B00F18A8A /* SoapLiteral.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoapLiteral.h; sourceTree = "<group>"; };
+		10C71F9F110C0A71008E8718 /* SoapNil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoapNil.h; sourceTree = "<group>"; };
+		10C71FA0110C0A71008E8718 /* SoapNil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoapNil.m; sourceTree = "<group>"; };
+		10C71FA1110C0A71008E8718 /* SoapObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoapObject.h; sourceTree = "<group>"; };
+		10C71FA2110C0A71008E8718 /* SoapObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoapObject.m; sourceTree = "<group>"; };
+		10C71FA3110C0A71008E8718 /* SoapParameter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoapParameter.h; sourceTree = "<group>"; };
+		10C71FA4110C0A71008E8718 /* SoapParameter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoapParameter.m; sourceTree = "<group>"; };
+		10C71FA5110C0A71008E8718 /* SoapReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoapReachability.h; sourceTree = "<group>"; };
+		10C71FA6110C0A71008E8718 /* SoapReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoapReachability.m; sourceTree = "<group>"; };
+		10C71FA7110C0A71008E8718 /* SoapRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoapRequest.h; sourceTree = "<group>"; };
+		10C71FA8110C0A71008E8718 /* SoapRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoapRequest.m; sourceTree = "<group>"; };
+		10C71FA9110C0A71008E8718 /* SoapService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoapService.h; sourceTree = "<group>"; };
+		10C71FAA110C0A71008E8718 /* SoapService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoapService.m; sourceTree = "<group>"; };
+		10C71FAC110C0A71008E8718 /* CXMLDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLDocument.h; sourceTree = "<group>"; };
+		10C71FAD110C0A71008E8718 /* CXMLDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLDocument.m; sourceTree = "<group>"; };
+		10C71FAE110C0A71008E8718 /* CXMLDocument_PrivateExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLDocument_PrivateExtensions.h; sourceTree = "<group>"; };
+		10C71FAF110C0A71008E8718 /* CXMLDocument_PrivateExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLDocument_PrivateExtensions.m; sourceTree = "<group>"; };
+		10C71FB0110C0A71008E8718 /* CXMLElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLElement.h; sourceTree = "<group>"; };
+		10C71FB1110C0A71008E8718 /* CXMLElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLElement.m; sourceTree = "<group>"; };
+		10C71FB2110C0A71008E8718 /* CXMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLNode.h; sourceTree = "<group>"; };
+		10C71FB3110C0A71008E8718 /* CXMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLNode.m; sourceTree = "<group>"; };
+		10C71FB4110C0A71008E8718 /* CXMLNode_PrivateExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLNode_PrivateExtensions.h; sourceTree = "<group>"; };
+		10C71FB5110C0A71008E8718 /* CXMLNode_PrivateExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLNode_PrivateExtensions.m; sourceTree = "<group>"; };
+		10C71FB6110C0A71008E8718 /* CXMLNode_XPathExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLNode_XPathExtensions.h; sourceTree = "<group>"; };
+		10C71FB7110C0A71008E8718 /* CXMLNode_XPathExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLNode_XPathExtensions.m; sourceTree = "<group>"; };		
+		10C71FB8110C0A71008E8718 /* TouchXML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchXML.h; sourceTree = "<group>"; };
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D6058910D05DD3D006BFB54 /* SudzCExamples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SudzCExamples.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* SudzCExamples_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SudzCExamples_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* SudzCExamples-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "SudzCExamples-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
+				10C71E6E110B5EC0008E8718 /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10C71DC8110B5D8E008E8718 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				10C71DCC110B5D9F008E8718 /* SudzCExamplesAppDelegate.m */,
+				10C71DCD110B5D9F008E8718 /* SudzCExamplesAppDelegate.h */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		10C71EBB110C0A71008E8718 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				1027CDDE110CDB4A00147F52 /* Examples */,
+				10C71EBC110C0A71008E8718 /* Generated */,
+				10C71F91110C0A71008E8718 /* Soap */,
+				10C71FAB110C0A71008E8718 /* TouchXML */,
+			);
+			name = Source;
+			path = ../Source;
+			sourceTree = SOURCE_ROOT;
+		};
+		1027CDDE110CDB4A00147F52 /* Examples */ = {
+
+			isa = PBXGroup;
+
+			children = (
+
+				508d8af5a8e6cd8d00000000 /* SDZHotelServicesImplServiceExample.m */,
+				508d8af6a8e6cd8d00000000 /* SDZHotelServicesImplServiceExample.h */,
+
+
+			);
+
+			path = Examples;
+
+			sourceTree = "<group>";
+
+		};
+		10C71EBC110C0A71008E8718 /* Generated */ = {
+			isa = PBXGroup;
+			children = (
+				508d8af7a8e6cd8e00000000 /* SDZItineraryQuery.h */,
+				508d8af8a8e6cd8e00000000 /* SDZgetListResponse.m */,
+				508d8af9a8e6cd8e00000000 /* SDZgetPingResponse.m */,
+				508d8afaa8e6cd8e00000000 /* SDZHotelInformationResponse.h */,
+				508d8afba8e6cd8e00000000 /* SDZHotelRoomReservationRequest.h */,
+				508d8afca8e6cd8e00000000 /* SDZmapEntry.h */,
+				508d8afda8e6cd8e00000000 /* SDZSupplier.h */,
+				508d8afea8e6cd8e00000000 /* SDZRateRulesFreeFlow.h */,
+				508d8affa8e6cd8e00000000 /* SDZgetAvailabilityResponse.m */,
+				508d8b00a8e6cd8e00000000 /* SDZRoom.m */,
+				508d8b01a8e6cd8e00000000 /* SDZbaseRateInfoSurcharges.m */,
+				508d8b02a8e6cd8e00000000 /* SDZReservationGuest.h */,
+				508d8b03a8e6cd8e00000000 /* SDZgetReservationResponse.h */,
+				508d8b04a8e6cd8e00000000 /* SDZHotelListRequest.m */,
+				508d8b05a8e6cd8e00000000 /* SDZvalueAdd.h */,
+				508d8b06a8e6cd8e00000000 /* SDZPaymentType.h */,
+				508d8b07a8e6cd8e00000000 /* SDZHotelRateRulesRequest.m */,
+				508d8b08a8e6cd8e00000000 /* SDZlistWithSizeAttribute.h */,
+				508d8b09a8e6cd8e00000000 /* SDZRoomType.m */,
+				508d8b0aa8e6cd8e00000000 /* SDZLowestRateInfo.h */,
+				508d8b0ba8e6cd8e00000000 /* SDZRoomAmenities.h */,
+				508d8b0ca8e6cd8e00000000 /* SDZNightlyRates.h */,
+				508d8b0da8e6cd8e00000000 /* SDZgetPaymentInfoResponse.h */,
+				508d8b0ea8e6cd8e00000000 /* SDZreservationInfo.m */,
+				508d8b0fa8e6cd8e00000000 /* SDZRoomRateDetails.m */,
+				508d8b10a8e6cd8e00000000 /* SDZgetItineraryResponse.h */,
+				508d8b11a8e6cd8e00000000 /* SDZHotelRoomImageResponse.h */,
+				508d8b12a8e6cd8e00000000 /* SDZRateChangeInfo.h */,
+				508d8b13a8e6cd8e00000000 /* SDZHotelRoomResponse.h */,
+				508d8b14a8e6cd8e00000000 /* SDZAlternatePropertyListResponse.m */,
+				508d8b15a8e6cd8e00000000 /* SDZRateInfos.m */,
+				508d8b16a8e6cd8e00000000 /* SDZHotelInfo.m */,
+				508d8b17a8e6cd8e00000000 /* SDZRoomImage.m */,
+				508d8b18a8e6cd8e00000000 /* SDZBaseResponse.h */,
+				508d8b19a8e6cd8e00000000 /* SDZgetRateRulesResponse.m */,
+				508d8b1aa8e6cd8e00000000 /* SDZHotelListResponse.m */,
+				508d8b1ba8e6cd8e00000000 /* SDZSuppliers.h */,
+				508d8b1ca8e6cd8e00000000 /* SDZHotelRoomAvailabilityResponse.m */,
+				508d8b1da8e6cd8e00000000 /* SDZgetItinerary.m */,
+				508d8b1ea8e6cd8e00000000 /* SDZlistWithSizeAttribute.m */,
+				508d8b1fa8e6cd8e00000000 /* SDZAmenities.m */,
+				508d8b20a8e6cd8e00000000 /* SDZHotelRoomReservationResponse.h */,
+				508d8b21a8e6cd8e00000000 /* SDZgetItineraryResponse.m */,
+				508d8b22a8e6cd8e00000000 /* SDZbaseRateInfoSurcharges.h */,
+				508d8b23a8e6cd8e00000000 /* SDZgetRoomImage.m */,
+				508d8b24a8e6cd8e00000000 /* SDZHotelRateInfo.m */,
+				508d8b25a8e6cd8e00000000 /* SDZBaseRequest.m */,
+				508d8b26a8e6cd8e00000000 /* SDZHotelItineraryResponse.m */,
+				508d8b27a8e6cd8e00000000 /* SDZHotelRoomImageRequest.m */,
+				508d8b28a8e6cd8e00000000 /* SDZHotelPaymentRequest.m */,
+				508d8b29a8e6cd8e00000000 /* SDZHotelSummary.h */,
+				508d8b2aa8e6cd8e00000000 /* SDZbaseRateInfoNightlyRatesPerRoom.h */,
+				508d8b2ba8e6cd8e00000000 /* SDZPingRequest.m */,
+				508d8b2ca8e6cd8e00000000 /* SDZPingResponse.h */,
+				508d8b2da8e6cd8e00000000 /* SDZCachedSupplierResponse.h */,
+				508d8b2ea8e6cd8e00000000 /* SDZRateChangeInfos.m */,
+				508d8b2fa8e6cd8e00000000 /* SDZDiscount.m */,
+				508d8b30a8e6cd8e00000000 /* SDZItineraryQuery.m */,
+				508d8b31a8e6cd8e00000000 /* SDZgetReservation.h */,
+				508d8b32a8e6cd8e00000000 /* SDZaddressInfo.m */,
+				508d8b33a8e6cd8e00000000 /* SDZRateRulesFreeFlows.h */,
+				508d8b34a8e6cd8e00000000 /* SDZRateChangeInfos.h */,
+				508d8b35a8e6cd8e00000000 /* SDZgetAvailability.m */,
+				508d8b36a8e6cd8e00000000 /* SDZgetRateRules.h */,
+				508d8b37a8e6cd8e00000000 /* SDZCouponInformation.m */,
+				508d8b38a8e6cd8e00000000 /* SDZRoomGroup.h */,
+				508d8b39a8e6cd8e00000000 /* SDZHotelConfirmation.h */,
+				508d8b3aa8e6cd8e00000000 /* SDZHotelPaymentResponse.m */,
+				508d8b3ba8e6cd8e00000000 /* SDZv3.HotelPaymentRequest.h */,
+				508d8b3ca8e6cd8e00000000 /* SDZCouponInformationResponse.h */,
+				508d8b3da8e6cd8e00000000 /* SDZNightlyRate.m */,
+				508d8b3ea8e6cd8e00000000 /* Soap+Prefix.h */,
+				508d8b3fa8e6cd8e00000000 /* SDZRoomRateDetailsList.m */,
+				508d8b40a8e6cd8e00000000 /* SDZHotelRoomCancellationRequest.m */,
+				508d8b41a8e6cd8f00000000 /* SDZbedType.m */,
+				508d8b42a8e6cd8f00000000 /* SDZCachedSupplierResponse.m */,
+				508d8b43a8e6cd8f00000000 /* SDZServerInfo.m */,
+				508d8b44a8e6cd8f00000000 /* SDZLocationInfoResponse.h */,
+				508d8b45a8e6cd8f00000000 /* SDZLocationInfoResponse.m */,
+				508d8b46a8e6cd8f00000000 /* SDZbaseRateInfoDiscounts.m */,
+				508d8b47a8e6cd8f00000000 /* SDZgetAvailabilityResponse.h */,
+				508d8b48a8e6cd8f00000000 /* SDZConfirmationExtra.h */,
+				508d8b49a8e6cd8f00000000 /* SDZBedTypes.h */,
+				508d8b4aa8e6cd8f00000000 /* SDZAmenities.h */,
+				508d8b4ba8e6cd8f00000000 /* SDZAlternateHotelResponse.m */,
+				508d8b4ca8e6cd8f00000000 /* SDZLocationInfos.h */,
+				508d8b4da8e6cd8f00000000 /* SDZHotelImages.h */,
+				508d8b4ea8e6cd8f00000000 /* SDZConfirmationExtras.m */,
+				508d8b4fa8e6cd8f00000000 /* SDZCancelPolicyInfoList.h */,
+				508d8b50a8e6cd8f00000000 /* SDZgetList.m */,
+				508d8b51a8e6cd8f00000000 /* SDZErrorAttributes.m */,
+				508d8b52a8e6cd8f00000000 /* SDZHotelServicesImplService.h */,
+				508d8b53a8e6cd8f00000000 /* SDZServerInfo.h */,
+				508d8b54a8e6cd8f00000000 /* SDZRoom.h */,
+				508d8b55a8e6cd8f00000000 /* SDZRateChangeInfo.m */,
+				508d8b56a8e6cd8f00000000 /* SDZSurcharge.h */,
+				508d8b57a8e6cd8f00000000 /* SDZgetInformation.h */,
+				508d8b58a8e6cd8f00000000 /* SDZgetAlternatePropertiesResponse.h */,
+				508d8b59a8e6cd8f00000000 /* SDZHotelPaymentResponse.h */,
+				508d8b5aa8e6cd8f00000000 /* SDZHotelRoomAvailabilityRequest.m */,
+				508d8b5ba8e6cd8f00000000 /* SDZHotelSummary.m */,
+				508d8b5ca8e6cd8f00000000 /* SDZHotelInformationRequest.h */,
+				508d8b5da8e6cd8f00000000 /* SDZHotelItineraryRequest.m */,
+				508d8b5ea8e6cd8f00000000 /* SDZgetPaymentInfo.m */,
+				508d8b5fa8e6cd8f00000000 /* SDZHotelItineraryRequest.h */,
+				508d8b60a8e6cd8f00000000 /* SDZgetGeoLocation.m */,
+				508d8b61a8e6cd8f00000000 /* SDZHotelConfirmation.m */,
+				508d8b62a8e6cd8f00000000 /* SDZServices.h */,
+				508d8b63a8e6cd8f00000000 /* SDZHotelList.h */,
+				508d8b64a8e6cd8f00000000 /* SDZCouponInformation.h */,
+				508d8b65a8e6cd8f00000000 /* SDZHotelImages.m */,
+				508d8b66a8e6cd8f00000000 /* SDZCouponErrors.m */,
+				508d8b67a8e6cd8f00000000 /* SDZHotelRoomCancellationRequest.h */,
+				508d8b68a8e6cd8f00000000 /* SDZgetRoomImageResponse.m */,
+				508d8b69a8e6cd8f00000000 /* SDZRateRulesFreeFlows.m */,
+				508d8b6aa8e6cd8f00000000 /* SDZAlternatePropertyListRequest.m */,
+				508d8b6ba8e6cd8f00000000 /* SDZValueAdds.h */,
+				508d8b6ca8e6cd8f00000000 /* SDZRoomAmenities.m */,
+				508d8b6da8e6cd8f00000000 /* SDZHotelRoomCancellationResponse.h */,
+				508d8b6ea8e6cd8f00000000 /* SDZHotelRoomImageRequest.h */,
+				508d8b6fa8e6cd8f00000000 /* SDZHotelPaymentRequest.h */,
+				508d8b70a8e6cd8f00000000 /* SDZHotelListRequest.h */,
+				508d8b71a8e6cd8f00000000 /* SDZHotelInformationResponse.m */,
+				508d8b72a8e6cd8f00000000 /* SDZHotel.h */,
+				508d8b73a8e6cd8f00000000 /* SDZbaseRateInfoDiscounts.h */,
+				508d8b74a8e6cd8f00000000 /* SDZgetInformation.m */,
+				508d8b75a8e6cd8f00000000 /* SDZHotelDetails.m */,
+				508d8b76a8e6cd8f00000000 /* SDZLocationInfoRequest.m */,
+				508d8b77a8e6cd8f00000000 /* SDZLocationInfo.h */,
+				508d8b78a8e6cd8f00000000 /* SDZBaseRequest.h */,
+				508d8b79a8e6cd8f00000000 /* SDZgetAlternateProperties.m */,
+				508d8b7aa8e6cd8f00000000 /* SDZPingRequest.h */,
+				508d8b7ba8e6cd8f00000000 /* SDZHotelServicesImplService.m */,
+				508d8b7ca8e6cd8f00000000 /* SDZgetInformationResponse.m */,
+				508d8b7da8e6cd8f00000000 /* SDZgetAlternateProperties.h */,
+				508d8b7ea8e6cd8f00000000 /* SDZLowestRateInfo.m */,
+				508d8b7fa8e6cd8f00000000 /* SDZgetListResponse.h */,
+				508d8b80a8e6cd8f00000000 /* SDZRoomTypes.m */,
+				508d8b81a8e6cd8f00000000 /* SDZBaseResponse.m */,
+				508d8b82a8e6cd8f00000000 /* SDZCustomerAddress.h */,
+				508d8b83a8e6cd8f00000000 /* SDZItinerary.m */,
+				508d8b84a8e6cd8f00000000 /* SDZHotelRoomReservationResponse.m */,
+				508d8b85a8e6cd8f00000000 /* SDZLocationInfos.m */,
+				508d8b86a8e6cd8f00000000 /* SDZgetRateRulesResponse.h */,
+				508d8b87a8e6cd8f00000000 /* SDZError.m */,
+				508d8b88a8e6cd8f00000000 /* SDZHotelRoomAvailabilityResponse.h */,
+				508d8b89a8e6cd8f00000000 /* SDZgetCancellationResponse.h */,
+				508d8b8aa8e6cd8f00000000 /* Soap+Prefix.m */,
+				508d8b8ba8e6cd9000000000 /* SDZRateRulesFreeFlow.m */,
+				508d8b8ca8e6cd9000000000 /* SDZAlternatePropertyListRequest.h */,
+				508d8b8da8e6cd9000000000 /* SDZCouponErrors.h */,
+				508d8b8ea8e6cd9000000000 /* SDZRoomType.h */,
+				508d8b8fa8e6cd9000000000 /* SDZHotelInfo.h */,
+				508d8b90a8e6cd9000000000 /* SDZHotelListResponse.h */,
+				508d8b91a8e6cd9000000000 /* SDZHotelRoomAvailabilityRequest.h */,
+				508d8b92a8e6cd9000000000 /* SDZLocationInfo.m */,
+				508d8b93a8e6cd9000000000 /* SDZHotelImage.h */,
+				508d8b94a8e6cd9000000000 /* SDZgetPing.h */,
+				508d8b95a8e6cd9000000000 /* SDZHotelRoomCancellationResponse.m */,
+				508d8b96a8e6cd9000000000 /* SDZgetInformationResponse.h */,
+				508d8b97a8e6cd9000000000 /* SDZPropertyAmenities.m */,
+				508d8b98a8e6cd9000000000 /* SDZRoomRateDetails.h */,
+				508d8b99a8e6cd9000000000 /* SDZHotel.m */,
+				508d8b9aa8e6cd9000000000 /* SDZgetReservationResponse.m */,
+				508d8b9ba8e6cd9000000000 /* SDZRoomAmenity.m */,
+				508d8b9ca8e6cd9000000000 /* SDZRoomImage.h */,
+				508d8b9da8e6cd9000000000 /* SDZHotelRoomReservationRequest.m */,
+				508d8b9ea8e6cd9000000000 /* SDZgetGeoLocation.h */,
+				508d8b9fa8e6cd9000000000 /* SDZSuppliers.m */,
+				508d8ba0a8e6cd9000000000 /* SDZNightlyRate.h */,
+				508d8ba1a8e6cd9000000000 /* SDZgetItinerary.h */,
+				508d8ba2a8e6cd9000000000 /* SDZRoomTypes.h */,
+				508d8ba3a8e6cd9000000000 /* SDZCustomer.m */,
+				508d8ba4a8e6cd9000000000 /* SDZHotelDetails.h */,
+				508d8ba5a8e6cd9000000000 /* SDZgetPing.m */,
+				508d8ba6a8e6cd9000000000 /* SDZgetRoomImage.h */,
+				508d8ba7a8e6cd9000000000 /* SDZHotelRateRulesRequest.h */,
+				508d8ba8a8e6cd9000000000 /* SDZbedType.h */,
+				508d8ba9a8e6cd9000000000 /* SDZbaseRateInfoNightlyRatesPerRoom.m */,
+				508d8baaa8e6cd9000000000 /* SDZgetPaymentInfoResponse.m */,
+				508d8baba8e6cd9000000000 /* SDZPaymentType.m */,
+				508d8baca8e6cd9000000000 /* SDZgetPaymentInfo.h */,
+				508d8bada8e6cd9000000000 /* SDZCouponInformationResponse.m */,
+				508d8baea8e6cd9000000000 /* SDZAlternateHotelResponse.h */,
+				508d8bafa8e6cd9000000000 /* SDZgetRoomImageResponse.h */,
+				508d8bb0a8e6cd9000000000 /* SDZSupplier.m */,
+				508d8bb1a8e6cd9000000000 /* SDZServices.m */,
+				508d8bb2a8e6cd9000000000 /* SDZRoomImages.h */,
+				508d8bb3a8e6cd9000000000 /* SDZPropertyAmenity.h */,
+				508d8bb4a8e6cd9000000000 /* SDZCancelPolicyInfo.h */,
+				508d8bb5a8e6cd9000000000 /* SDZgetPingResponse.h */,
+				508d8bb6a8e6cd9000000000 /* SDZError.h */,
+				508d8bb7a8e6cd9000000000 /* SDZConfirmationExtra.m */,
+				508d8bb8a8e6cd9000000000 /* SDZHotelInformationRequest.m */,
+				508d8bb9a8e6cd9000000000 /* SDZgetCancellation.m */,
+				508d8bbaa8e6cd9000000000 /* SDZPropertyAmenity.m */,
+				508d8bbba8e6cd9000000000 /* SDZHotelRateRulesResponse.m */,
+				508d8bbca8e6cd9000000000 /* SDZHotelRateRulesResponse.h */,
+				508d8bbda8e6cd9000000000 /* SDZgetCancellation.h */,
+				508d8bbea8e6cd9000000000 /* SDZReservationGuest.m */,
+				508d8bbfa8e6cd9000000000 /* SDZBedTypes.m */,
+				508d8bc0a8e6cd9000000000 /* SDZHotelList.m */,
+				508d8bc1a8e6cd9000000000 /* SDZHotelImage.m */,
+				508d8bc2a8e6cd9000000000 /* SDZreservationInfo.h */,
+				508d8bc3a8e6cd9000000000 /* SDZLocationInfoRequest.h */,
+				508d8bc4a8e6cd9000000000 /* SDZPingResponse.m */,
+				508d8bc5a8e6cd9000000000 /* SDZConfirmationExtras.h */,
+				508d8bc6a8e6cd9000000000 /* SDZRoomRateDetailsList.h */,
+				508d8bc7a8e6cd9000000000 /* SDZgetRateRules.m */,
+				508d8bc8a8e6cd9000000000 /* SDZRoomAmenity.h */,
+				508d8bc9a8e6cd9000000000 /* SDZgetList.h */,
+				508d8bcaa8e6cd9000000000 /* SDZCouponData.h */,
+				508d8bcba8e6cd9000000000 /* SDZHotelBaseRequest.h */,
+				508d8bcca8e6cd9000000000 /* SDZEanWsError.h */,
+				508d8bcda8e6cd9000000000 /* SDZbaseRateInfo.h */,
+				508d8bcea8e6cd9000000000 /* SDZAlternatePropertyListResponse.h */,
+				508d8bcfa8e6cd9000000000 /* SDZCustomerAddress.m */,
+				508d8bd0a8e6cd9000000000 /* SDZErrorAttributes.h */,
+				508d8bd1a8e6cd9000000000 /* SDZValueAdds.m */,
+				508d8bd2a8e6cd9000000000 /* SDZCouponData.m */,
+				508d8bd3a8e6cd9000000000 /* SDZHotelRoomResponse.m */,
+				508d8bd4a8e6cd9000000000 /* SDZRoomGroup.m */,
+				508d8bd5a8e6cd9000000000 /* SDZSurcharge.m */,
+				508d8bd6a8e6cd9100000000 /* SDZCustomer.h */,
+				508d8bd7a8e6cd9100000000 /* SDZItinerary.h */,
+				508d8bd8a8e6cd9100000000 /* SDZgetGeoLocationResponse.m */,
+				508d8bd9a8e6cd9100000000 /* SDZHotelItineraryResponse.h */,
+				508d8bdaa8e6cd9100000000 /* SDZHotelRateInfo.h */,
+				508d8bdba8e6cd9100000000 /* SDZgetGeoLocationResponse.h */,
+				508d8bdca8e6cd9100000000 /* SDZHotelBaseRequest.m */,
+				508d8bdda8e6cd9100000000 /* SDZmapEntry.m */,
+				508d8bdea8e6cd9100000000 /* SDZRoomImages.m */,
+				508d8bdfa8e6cd9100000000 /* SDZDiscount.h */,
+				508d8be0a8e6cd9100000000 /* SDZEanWsError.m */,
+				508d8be1a8e6cd9100000000 /* SDZgetCancellationResponse.m */,
+				508d8be2a8e6cd9100000000 /* SDZNightlyRates.m */,
+				508d8be3a8e6cd9100000000 /* SDZv3.HotelPaymentRequest.m */,
+				508d8be4a8e6cd9100000000 /* SDZHotelRoomImageResponse.m */,
+				508d8be5a8e6cd9100000000 /* SDZgetAvailability.h */,
+				508d8be6a8e6cd9100000000 /* SDZRateInfos.h */,
+				508d8be7a8e6cd9100000000 /* SDZvalueAdd.m */,
+				508d8be8a8e6cd9100000000 /* SDZCancelPolicyInfo.m */,
+				508d8be9a8e6cd9100000000 /* SDZCancelPolicyInfoList.m */,
+				508d8beaa8e6cd9100000000 /* SDZaddressInfo.h */,
+				508d8beba8e6cd9100000000 /* SDZbaseRateInfo.m */,
+				508d8beca8e6cd9100000000 /* SDZgetAlternatePropertiesResponse.m */,
+				508d8beda8e6cd9100000000 /* SDZgetReservation.m */,
+				508d8beea8e6cd9100000000 /* SDZPropertyAmenities.h */,
+
+			);
+			path = Generated;
+			sourceTree = "<group>";
+		};
+		10C71F91110C0A71008E8718 /* Soap */ = {
+			isa = PBXGroup;
+			children = (
+				1067D05612B7BA3D005BBFFD /* NSMutableArray+Soap.h */,
+				1067D05712B7BA3D005BBFFD /* NSMutableArray+Soap.m */,
+				10C71F92110C0A71008E8718 /* NSData+Base64.h */,
+				10C71F93110C0A71008E8718 /* NSData+Base64.m */,
+				10C71F94110C0A71008E8718 /* Soap.h */,
+				10C71F95110C0A71008E8718 /* Soap.m */,
+				10C71F96110C0A71008E8718 /* SoapArray.h */,
+				10C71F97110C0A71008E8718 /* SoapArray.m */,
+				10C71F98110C0A71008E8718 /* SoapDelegate.h */,
+				10C71F9B110C0A71008E8718 /* SoapFault.h */,
+				10C71F9C110C0A71008E8718 /* SoapFault.m */,
+				10C71F9D110C0A71008E8718 /* SoapHandler.h */,
+				10C71F9E110C0A71008E8718 /* SoapHandler.m */,
+				10C71F9F110C0A71008E8718 /* SoapNil.h */,
+				10C71FA0110C0A71008E8718 /* SoapNil.m */,
+				107DACA71217305B00F18A8A /* SoapLiteral.m */,
+				107DACA81217305B00F18A8A /* SoapLiteral.h */,
+				10C71FA1110C0A71008E8718 /* SoapObject.h */,
+				10C71FA2110C0A71008E8718 /* SoapObject.m */,
+				10C71FA3110C0A71008E8718 /* SoapParameter.h */,
+				10C71FA4110C0A71008E8718 /* SoapParameter.m */,
+				10C71FA5110C0A71008E8718 /* SoapReachability.h */,
+				10C71FA6110C0A71008E8718 /* SoapReachability.m */,
+				10C71FA7110C0A71008E8718 /* SoapRequest.h */,
+				10C71FA8110C0A71008E8718 /* SoapRequest.m */,
+				10C71FA9110C0A71008E8718 /* SoapService.h */,
+				10C71FAA110C0A71008E8718 /* SoapService.m */,
+			);
+			path = Soap;
+			sourceTree = "<group>";
+		};
+		10C71FAB110C0A71008E8718 /* TouchXML */ = {
+			isa = PBXGroup;
+			children = (
+				10C71FAC110C0A71008E8718 /* CXMLDocument.h */,
+				10C71FAD110C0A71008E8718 /* CXMLDocument.m */,
+				10C71FAE110C0A71008E8718 /* CXMLDocument_PrivateExtensions.h */,
+				10C71FAF110C0A71008E8718 /* CXMLDocument_PrivateExtensions.m */,
+				10C71FB0110C0A71008E8718 /* CXMLElement.h */,
+				10C71FB1110C0A71008E8718 /* CXMLElement.m */,
+				10C71FB2110C0A71008E8718 /* CXMLNode.h */,
+				10C71FB3110C0A71008E8718 /* CXMLNode.m */,
+				10C71FB4110C0A71008E8718 /* CXMLNode_PrivateExtensions.h */,
+				10C71FB5110C0A71008E8718 /* CXMLNode_PrivateExtensions.m */,
+				10C71FB6110C0A71008E8718 /* CXMLNode_XPathExtensions.h */,
+				10C71FB7110C0A71008E8718 /* CXMLNode_XPathExtensions.m */,
+				10C71FB8110C0A71008E8718 /* TouchXML.h */,
+			);
+			path = TouchXML;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* SudzCExamples.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				10C71EBB110C0A71008E8718 /* Source */,
+				10C71DC8110B5D8E008E8718 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* SudzCExamples_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* SudzCExamples-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				10C71E6D110B5EC0008E8718 /* SystemConfiguration.framework */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* SudzCExamples */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "SudzCExamples" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SudzCExamples;
+			productName = SudzCExamples;
+			productReference = 1D6058910D05DD3D006BFB54 /* SudzCExamples.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "SudzCExamples" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* SudzCExamples */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				10C71DCE110B5D9F008E8718 /* SudzCExamplesAppDelegate.m in Sources */,
+				508d8befa8e6cd9100000000 /* SDZHotelServicesImplServiceExample.m in Sources */,
+				508d8bf2a8e6cd9100000000 /* SDZgetListResponse.m in Sources */,
+				508d8bf3a8e6cd9100000000 /* SDZgetPingResponse.m in Sources */,
+				508d8bf9a8e6cd9100000000 /* SDZgetAvailabilityResponse.m in Sources */,
+				508d8bfaa8e6cd9100000000 /* SDZRoom.m in Sources */,
+				508d8bfba8e6cd9100000000 /* SDZbaseRateInfoSurcharges.m in Sources */,
+				508d8bfea8e6cd9100000000 /* SDZHotelListRequest.m in Sources */,
+				508d8c01a8e6cd9100000000 /* SDZHotelRateRulesRequest.m in Sources */,
+				508d8c03a8e6cd9100000000 /* SDZRoomType.m in Sources */,
+				508d8c08a8e6cd9100000000 /* SDZreservationInfo.m in Sources */,
+				508d8c09a8e6cd9100000000 /* SDZRoomRateDetails.m in Sources */,
+				508d8c0ea8e6cd9100000000 /* SDZAlternatePropertyListResponse.m in Sources */,
+				508d8c0fa8e6cd9100000000 /* SDZRateInfos.m in Sources */,
+				508d8c10a8e6cd9100000000 /* SDZHotelInfo.m in Sources */,
+				508d8c11a8e6cd9100000000 /* SDZRoomImage.m in Sources */,
+				508d8c13a8e6cd9100000000 /* SDZgetRateRulesResponse.m in Sources */,
+				508d8c14a8e6cd9100000000 /* SDZHotelListResponse.m in Sources */,
+				508d8c16a8e6cd9100000000 /* SDZHotelRoomAvailabilityResponse.m in Sources */,
+				508d8c17a8e6cd9100000000 /* SDZgetItinerary.m in Sources */,
+				508d8c18a8e6cd9100000000 /* SDZlistWithSizeAttribute.m in Sources */,
+				508d8c19a8e6cd9100000000 /* SDZAmenities.m in Sources */,
+				508d8c1ba8e6cd9100000000 /* SDZgetItineraryResponse.m in Sources */,
+				508d8c1da8e6cd9100000000 /* SDZgetRoomImage.m in Sources */,
+				508d8c1ea8e6cd9100000000 /* SDZHotelRateInfo.m in Sources */,
+				508d8c1fa8e6cd9100000000 /* SDZBaseRequest.m in Sources */,
+				508d8c20a8e6cd9100000000 /* SDZHotelItineraryResponse.m in Sources */,
+				508d8c21a8e6cd9100000000 /* SDZHotelRoomImageRequest.m in Sources */,
+				508d8c22a8e6cd9100000000 /* SDZHotelPaymentRequest.m in Sources */,
+				508d8c25a8e6cd9100000000 /* SDZPingRequest.m in Sources */,
+				508d8c28a8e6cd9100000000 /* SDZRateChangeInfos.m in Sources */,
+				508d8c29a8e6cd9100000000 /* SDZDiscount.m in Sources */,
+				508d8c2aa8e6cd9100000000 /* SDZItineraryQuery.m in Sources */,
+				508d8c2ca8e6cd9100000000 /* SDZaddressInfo.m in Sources */,
+				508d8c2fa8e6cd9200000000 /* SDZgetAvailability.m in Sources */,
+				508d8c31a8e6cd9200000000 /* SDZCouponInformation.m in Sources */,
+				508d8c34a8e6cd9200000000 /* SDZHotelPaymentResponse.m in Sources */,
+				508d8c37a8e6cd9200000000 /* SDZNightlyRate.m in Sources */,
+				508d8c39a8e6cd9200000000 /* SDZRoomRateDetailsList.m in Sources */,
+				508d8c3aa8e6cd9200000000 /* SDZHotelRoomCancellationRequest.m in Sources */,
+				508d8c3ba8e6cd9200000000 /* SDZbedType.m in Sources */,
+				508d8c3ca8e6cd9200000000 /* SDZCachedSupplierResponse.m in Sources */,
+				508d8c3da8e6cd9200000000 /* SDZServerInfo.m in Sources */,
+				508d8c3fa8e6cd9200000000 /* SDZLocationInfoResponse.m in Sources */,
+				508d8c40a8e6cd9200000000 /* SDZbaseRateInfoDiscounts.m in Sources */,
+				508d8c45a8e6cd9200000000 /* SDZAlternateHotelResponse.m in Sources */,
+				508d8c48a8e6cd9200000000 /* SDZConfirmationExtras.m in Sources */,
+				508d8c4aa8e6cd9200000000 /* SDZgetList.m in Sources */,
+				508d8c4ba8e6cd9200000000 /* SDZErrorAttributes.m in Sources */,
+				508d8c4fa8e6cd9200000000 /* SDZRateChangeInfo.m in Sources */,
+				508d8c54a8e6cd9200000000 /* SDZHotelRoomAvailabilityRequest.m in Sources */,
+				508d8c55a8e6cd9200000000 /* SDZHotelSummary.m in Sources */,
+				508d8c57a8e6cd9200000000 /* SDZHotelItineraryRequest.m in Sources */,
+				508d8c58a8e6cd9200000000 /* SDZgetPaymentInfo.m in Sources */,
+				508d8c5aa8e6cd9200000000 /* SDZgetGeoLocation.m in Sources */,
+				508d8c5ba8e6cd9200000000 /* SDZHotelConfirmation.m in Sources */,
+				508d8c5fa8e6cd9200000000 /* SDZHotelImages.m in Sources */,
+				508d8c60a8e6cd9200000000 /* SDZCouponErrors.m in Sources */,
+				508d8c62a8e6cd9200000000 /* SDZgetRoomImageResponse.m in Sources */,
+				508d8c63a8e6cd9200000000 /* SDZRateRulesFreeFlows.m in Sources */,
+				508d8c64a8e6cd9200000000 /* SDZAlternatePropertyListRequest.m in Sources */,
+				508d8c66a8e6cd9200000000 /* SDZRoomAmenities.m in Sources */,
+				508d8c6ba8e6cd9200000000 /* SDZHotelInformationResponse.m in Sources */,
+				508d8c6ea8e6cd9200000000 /* SDZgetInformation.m in Sources */,
+				508d8c6fa8e6cd9200000000 /* SDZHotelDetails.m in Sources */,
+				508d8c70a8e6cd9200000000 /* SDZLocationInfoRequest.m in Sources */,
+				508d8c73a8e6cd9200000000 /* SDZgetAlternateProperties.m in Sources */,
+				508d8c75a8e6cd9200000000 /* SDZHotelServicesImplService.m in Sources */,
+				508d8c76a8e6cd9200000000 /* SDZgetInformationResponse.m in Sources */,
+				508d8c78a8e6cd9200000000 /* SDZLowestRateInfo.m in Sources */,
+				508d8c7aa8e6cd9200000000 /* SDZRoomTypes.m in Sources */,
+				508d8c7ba8e6cd9200000000 /* SDZBaseResponse.m in Sources */,
+				508d8c7da8e6cd9200000000 /* SDZItinerary.m in Sources */,
+				508d8c7ea8e6cd9200000000 /* SDZHotelRoomReservationResponse.m in Sources */,
+				508d8c7fa8e6cd9200000000 /* SDZLocationInfos.m in Sources */,
+				508d8c81a8e6cd9200000000 /* SDZError.m in Sources */,
+				508d8c84a8e6cd9200000000 /* Soap+Prefix.m in Sources */,
+				508d8c85a8e6cd9200000000 /* SDZRateRulesFreeFlow.m in Sources */,
+				508d8c8ca8e6cd9200000000 /* SDZLocationInfo.m in Sources */,
+				508d8c8fa8e6cd9200000000 /* SDZHotelRoomCancellationResponse.m in Sources */,
+				508d8c91a8e6cd9300000000 /* SDZPropertyAmenities.m in Sources */,
+				508d8c93a8e6cd9300000000 /* SDZHotel.m in Sources */,
+				508d8c94a8e6cd9300000000 /* SDZgetReservationResponse.m in Sources */,
+				508d8c95a8e6cd9300000000 /* SDZRoomAmenity.m in Sources */,
+				508d8c97a8e6cd9300000000 /* SDZHotelRoomReservationRequest.m in Sources */,
+				508d8c99a8e6cd9300000000 /* SDZSuppliers.m in Sources */,
+				508d8c9da8e6cd9300000000 /* SDZCustomer.m in Sources */,
+				508d8c9fa8e6cd9300000000 /* SDZgetPing.m in Sources */,
+				508d8ca3a8e6cd9300000000 /* SDZbaseRateInfoNightlyRatesPerRoom.m in Sources */,
+				508d8ca4a8e6cd9300000000 /* SDZgetPaymentInfoResponse.m in Sources */,
+				508d8ca5a8e6cd9300000000 /* SDZPaymentType.m in Sources */,
+				508d8ca7a8e6cd9300000000 /* SDZCouponInformationResponse.m in Sources */,
+				508d8caaa8e6cd9300000000 /* SDZSupplier.m in Sources */,
+				508d8caba8e6cd9300000000 /* SDZServices.m in Sources */,
+				508d8cb1a8e6cd9300000000 /* SDZConfirmationExtra.m in Sources */,
+				508d8cb2a8e6cd9300000000 /* SDZHotelInformationRequest.m in Sources */,
+				508d8cb3a8e6cd9300000000 /* SDZgetCancellation.m in Sources */,
+				508d8cb4a8e6cd9300000000 /* SDZPropertyAmenity.m in Sources */,
+				508d8cb5a8e6cd9300000000 /* SDZHotelRateRulesResponse.m in Sources */,
+				508d8cb8a8e6cd9300000000 /* SDZReservationGuest.m in Sources */,
+				508d8cb9a8e6cd9300000000 /* SDZBedTypes.m in Sources */,
+				508d8cbaa8e6cd9300000000 /* SDZHotelList.m in Sources */,
+				508d8cbba8e6cd9300000000 /* SDZHotelImage.m in Sources */,
+				508d8cbea8e6cd9300000000 /* SDZPingResponse.m in Sources */,
+				508d8cc1a8e6cd9300000000 /* SDZgetRateRules.m in Sources */,
+				508d8cc9a8e6cd9300000000 /* SDZCustomerAddress.m in Sources */,
+				508d8ccba8e6cd9300000000 /* SDZValueAdds.m in Sources */,
+				508d8ccca8e6cd9300000000 /* SDZCouponData.m in Sources */,
+				508d8ccda8e6cd9300000000 /* SDZHotelRoomResponse.m in Sources */,
+				508d8ccea8e6cd9300000000 /* SDZRoomGroup.m in Sources */,
+				508d8ccfa8e6cd9300000000 /* SDZSurcharge.m in Sources */,
+				508d8cd2a8e6cd9300000000 /* SDZgetGeoLocationResponse.m in Sources */,
+				508d8cd6a8e6cd9300000000 /* SDZHotelBaseRequest.m in Sources */,
+				508d8cd7a8e6cd9300000000 /* SDZmapEntry.m in Sources */,
+				508d8cd8a8e6cd9300000000 /* SDZRoomImages.m in Sources */,
+				508d8cdaa8e6cd9300000000 /* SDZEanWsError.m in Sources */,
+				508d8cdba8e6cd9300000000 /* SDZgetCancellationResponse.m in Sources */,
+				508d8cdca8e6cd9300000000 /* SDZNightlyRates.m in Sources */,
+				508d8cdda8e6cd9300000000 /* SDZv3.HotelPaymentRequest.m in Sources */,
+				508d8cdea8e6cd9300000000 /* SDZHotelRoomImageResponse.m in Sources */,
+				508d8ce1a8e6cd9300000000 /* SDZvalueAdd.m in Sources */,
+				508d8ce2a8e6cd9300000000 /* SDZCancelPolicyInfo.m in Sources */,
+				508d8ce3a8e6cd9300000000 /* SDZCancelPolicyInfoList.m in Sources */,
+				508d8ce5a8e6cd9300000000 /* SDZbaseRateInfo.m in Sources */,
+				508d8ce6a8e6cd9300000000 /* SDZgetAlternatePropertiesResponse.m in Sources */,
+				508d8ce7a8e6cd9300000000 /* SDZgetReservation.m in Sources */,
+
+				1067D05812B7BA3D005BBFFD /* NSMutableArray+Soap.m in Sources */,
+				10C72023110C0A71008E8718 /* NSData+Base64.m in Sources */,
+				10C72024110C0A71008E8718 /* Soap.m in Sources */,
+				10C72025110C0A71008E8718 /* SoapArray.m in Sources */,
+				10C72027110C0A71008E8718 /* SoapFault.m in Sources */,
+				10C72028110C0A71008E8718 /* SoapHandler.m in Sources */,
+				10C72029110C0A71008E8718 /* SoapNil.m in Sources */,
+				107DACA91217305B00F18A8A /* SoapLiteral.m in Sources */,
+				10C7202A110C0A71008E8718 /* SoapObject.m in Sources */,
+				10C7202B110C0A71008E8718 /* SoapParameter.m in Sources */,
+				10C7202C110C0A71008E8718 /* SoapReachability.m in Sources */,
+				10C7202D110C0A71008E8718 /* SoapRequest.m in Sources */,
+				10C7202E110C0A71008E8718 /* SoapService.m in Sources */,
+				10C7202F110C0A71008E8718 /* CXMLDocument.m in Sources */,
+				10C72030110C0A71008E8718 /* CXMLDocument_PrivateExtensions.m in Sources */,
+				10C72031110C0A71008E8718 /* CXMLElement.m in Sources */,
+				10C72032110C0A71008E8718 /* CXMLNode.m in Sources */,
+				10C72033110C0A71008E8718 /* CXMLNode_PrivateExtensions.m in Sources */,
+				10C72034110C0A71008E8718 /* CXMLNode_XPathExtensions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = SudzCExamples_Prefix.pch;
+				INFOPLIST_FILE = "SudzCExamples-Info.plist";
+				PRODUCT_NAME = SudzCExamples;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = SudzCExamples_Prefix.pch;
+				INFOPLIST_FILE = "SudzCExamples-Info.plist";
+				PRODUCT_NAME = SudzCExamples;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
+				OTHER_LDFLAGS = "-lxml2";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
+				OTHER_LDFLAGS = "-lxml2";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "SudzCExamples" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "SudzCExamples" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

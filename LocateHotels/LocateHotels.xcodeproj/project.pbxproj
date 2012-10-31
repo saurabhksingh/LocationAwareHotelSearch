@@ -1,0 +1,332 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		095B5F5E163EB99A004EDB10 /* GDRHotelDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 095B5F5C163EB99A004EDB10 /* GDRHotelDetailsViewController.m */; };
+		095B5F5F163EB99A004EDB10 /* GDRHotelDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 095B5F5D163EB99A004EDB10 /* GDRHotelDetailsViewController.xib */; };
+		09C54838163DC1F700F01BAE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09C54837163DC1F700F01BAE /* UIKit.framework */; };
+		09C5483A163DC1F700F01BAE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09C54839163DC1F700F01BAE /* Foundation.framework */; };
+		09C5483C163DC1F700F01BAE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09C5483B163DC1F700F01BAE /* CoreGraphics.framework */; };
+		09C54842163DC1F700F01BAE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 09C54840163DC1F700F01BAE /* InfoPlist.strings */; };
+		09C54844163DC1F700F01BAE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 09C54843163DC1F700F01BAE /* main.m */; };
+		09C54848163DC1F700F01BAE /* GDRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 09C54847163DC1F700F01BAE /* GDRAppDelegate.m */; };
+		09C5484A163DC1F700F01BAE /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 09C54849163DC1F700F01BAE /* Default.png */; };
+		09C5484C163DC1F700F01BAE /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 09C5484B163DC1F700F01BAE /* Default@2x.png */; };
+		09C5484E163DC1F700F01BAE /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 09C5484D163DC1F700F01BAE /* Default-568h@2x.png */; };
+		09C54851163DC1F700F01BAE /* GDRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09C54850163DC1F700F01BAE /* GDRViewController.m */; };
+		09C54854163DC1F700F01BAE /* GDRViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09C54852163DC1F700F01BAE /* GDRViewController_iPhone.xib */; };
+		09C54857163DC1F700F01BAE /* GDRViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09C54855163DC1F700F01BAE /* GDRViewController_iPad.xib */; };
+		09C54D16163E407800F01BAE /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09C54D15163E407800F01BAE /* CoreLocation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		095B5F5B163EB99A004EDB10 /* GDRHotelDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDRHotelDetailsViewController.h; sourceTree = "<group>"; };
+		095B5F5C163EB99A004EDB10 /* GDRHotelDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDRHotelDetailsViewController.m; sourceTree = "<group>"; };
+		095B5F5D163EB99A004EDB10 /* GDRHotelDetailsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GDRHotelDetailsViewController.xib; sourceTree = "<group>"; };
+		09C54833163DC1F700F01BAE /* LocateHotels.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LocateHotels.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		09C54837163DC1F700F01BAE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		09C54839163DC1F700F01BAE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		09C5483B163DC1F700F01BAE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		09C5483F163DC1F700F01BAE /* LocateHotels-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LocateHotels-Info.plist"; sourceTree = "<group>"; };
+		09C54841163DC1F700F01BAE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		09C54843163DC1F700F01BAE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		09C54845163DC1F700F01BAE /* LocateHotels-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LocateHotels-Prefix.pch"; sourceTree = "<group>"; };
+		09C54846163DC1F700F01BAE /* GDRAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GDRAppDelegate.h; sourceTree = "<group>"; };
+		09C54847163DC1F700F01BAE /* GDRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GDRAppDelegate.m; sourceTree = "<group>"; };
+		09C54849163DC1F700F01BAE /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		09C5484B163DC1F700F01BAE /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		09C5484D163DC1F700F01BAE /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		09C5484F163DC1F700F01BAE /* GDRViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GDRViewController.h; sourceTree = "<group>"; };
+		09C54850163DC1F700F01BAE /* GDRViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GDRViewController.m; sourceTree = "<group>"; };
+		09C54853163DC1F700F01BAE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/GDRViewController_iPhone.xib; sourceTree = "<group>"; };
+		09C54856163DC1F700F01BAE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/GDRViewController_iPad.xib; sourceTree = "<group>"; };
+		09C54D15163E407800F01BAE /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		09C54830163DC1F700F01BAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09C54D16163E407800F01BAE /* CoreLocation.framework in Frameworks */,
+				09C54838163DC1F700F01BAE /* UIKit.framework in Frameworks */,
+				09C5483A163DC1F700F01BAE /* Foundation.framework in Frameworks */,
+				09C5483C163DC1F700F01BAE /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09C54828163DC1F700F01BAE = {
+			isa = PBXGroup;
+			children = (
+				09C54D15163E407800F01BAE /* CoreLocation.framework */,
+				09C5483D163DC1F700F01BAE /* LocateHotels */,
+				09C54836163DC1F700F01BAE /* Frameworks */,
+				09C54834163DC1F700F01BAE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		09C54834163DC1F700F01BAE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				09C54833163DC1F700F01BAE /* LocateHotels.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		09C54836163DC1F700F01BAE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				09C54837163DC1F700F01BAE /* UIKit.framework */,
+				09C54839163DC1F700F01BAE /* Foundation.framework */,
+				09C5483B163DC1F700F01BAE /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		09C5483D163DC1F700F01BAE /* LocateHotels */ = {
+			isa = PBXGroup;
+			children = (
+				09C54846163DC1F700F01BAE /* GDRAppDelegate.h */,
+				09C54847163DC1F700F01BAE /* GDRAppDelegate.m */,
+				09C5484F163DC1F700F01BAE /* GDRViewController.h */,
+				09C54850163DC1F700F01BAE /* GDRViewController.m */,
+				09C54852163DC1F700F01BAE /* GDRViewController_iPhone.xib */,
+				09C54855163DC1F700F01BAE /* GDRViewController_iPad.xib */,
+				09C5483E163DC1F700F01BAE /* Supporting Files */,
+				095B5F5B163EB99A004EDB10 /* GDRHotelDetailsViewController.h */,
+				095B5F5C163EB99A004EDB10 /* GDRHotelDetailsViewController.m */,
+				095B5F5D163EB99A004EDB10 /* GDRHotelDetailsViewController.xib */,
+			);
+			path = LocateHotels;
+			sourceTree = "<group>";
+		};
+		09C5483E163DC1F700F01BAE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				09C5483F163DC1F700F01BAE /* LocateHotels-Info.plist */,
+				09C54840163DC1F700F01BAE /* InfoPlist.strings */,
+				09C54843163DC1F700F01BAE /* main.m */,
+				09C54845163DC1F700F01BAE /* LocateHotels-Prefix.pch */,
+				09C54849163DC1F700F01BAE /* Default.png */,
+				09C5484B163DC1F700F01BAE /* Default@2x.png */,
+				09C5484D163DC1F700F01BAE /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		09C54832163DC1F700F01BAE /* LocateHotels */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09C5485A163DC1F700F01BAE /* Build configuration list for PBXNativeTarget "LocateHotels" */;
+			buildPhases = (
+				09C5482F163DC1F700F01BAE /* Sources */,
+				09C54830163DC1F700F01BAE /* Frameworks */,
+				09C54831163DC1F700F01BAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LocateHotels;
+			productName = LocateHotels;
+			productReference = 09C54833163DC1F700F01BAE /* LocateHotels.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		09C5482A163DC1F700F01BAE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = GDR;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Saurabh Kumar Singh";
+			};
+			buildConfigurationList = 09C5482D163DC1F700F01BAE /* Build configuration list for PBXProject "LocateHotels" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 09C54828163DC1F700F01BAE;
+			productRefGroup = 09C54834163DC1F700F01BAE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				09C54832163DC1F700F01BAE /* LocateHotels */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		09C54831163DC1F700F01BAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09C54842163DC1F700F01BAE /* InfoPlist.strings in Resources */,
+				09C5484A163DC1F700F01BAE /* Default.png in Resources */,
+				09C5484C163DC1F700F01BAE /* Default@2x.png in Resources */,
+				09C5484E163DC1F700F01BAE /* Default-568h@2x.png in Resources */,
+				09C54854163DC1F700F01BAE /* GDRViewController_iPhone.xib in Resources */,
+				09C54857163DC1F700F01BAE /* GDRViewController_iPad.xib in Resources */,
+				095B5F5F163EB99A004EDB10 /* GDRHotelDetailsViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		09C5482F163DC1F700F01BAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09C54844163DC1F700F01BAE /* main.m in Sources */,
+				09C54848163DC1F700F01BAE /* GDRAppDelegate.m in Sources */,
+				09C54851163DC1F700F01BAE /* GDRViewController.m in Sources */,
+				095B5F5E163EB99A004EDB10 /* GDRHotelDetailsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		09C54840163DC1F700F01BAE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09C54841163DC1F700F01BAE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		09C54852163DC1F700F01BAE /* GDRViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09C54853163DC1F700F01BAE /* en */,
+			);
+			name = GDRViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		09C54855163DC1F700F01BAE /* GDRViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09C54856163DC1F700F01BAE /* en */,
+			);
+			name = GDRViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		09C54858163DC1F700F01BAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(SDKROOT)/usr/include/libxml2";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		09C54859163DC1F700F01BAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(SDKROOT)/usr/include/libxml2";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		09C5485B163DC1F700F01BAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LocateHotels/LocateHotels-Prefix.pch";
+				INFOPLIST_FILE = "LocateHotels/LocateHotels-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		09C5485C163DC1F700F01BAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LocateHotels/LocateHotels-Prefix.pch";
+				INFOPLIST_FILE = "LocateHotels/LocateHotels-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		09C5482D163DC1F700F01BAE /* Build configuration list for PBXProject "LocateHotels" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09C54858163DC1F700F01BAE /* Debug */,
+				09C54859163DC1F700F01BAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09C5485A163DC1F700F01BAE /* Build configuration list for PBXNativeTarget "LocateHotels" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09C5485B163DC1F700F01BAE /* Debug */,
+				09C5485C163DC1F700F01BAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 09C5482A163DC1F700F01BAE /* Project object */;
+}
